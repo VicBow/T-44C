@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="motivationalapps.t_44c.Maneuvers.ApproachesToStalls">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/Title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="Approaches to Stalls"
+                android:textColor="@android:color/black"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/info"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="fill_horizontal"
+                android:padding="5dp"
+                android:text="Approaches to stalls are practiced in order to recognize an approaching stall and to quickly execute a recovery with minimal altitude loss. Start approaches to stall on assigned altitude and heading at 150 KIAS."
+                android:textColor="@android:color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/preStall"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:padding="5sp"
+                android:text="Pre-Stall Checks"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/info1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="fill_horizontal"
+                android:padding="5dp"
+                android:text="Complete the following pre-stall checks from memory prior to the first stall entry. Have the PM review it complete for subsequent approaches to stalls.
+\n\ni.   Spin Recovery Procedures \u2014 Briefed IAW NATOPS.
+\n\nii.  Loose gear \u2014 Stowed.
+\n\niii. Altitude \u2014 5000 feet AGL minimum (VMC to the deck) or 8000 feet AGL minimum (5000 feet above cloud deck).
+\n\niv.  Yaw damp \u2014 Off.
+\n\nv.   Props \u2014 1900 RPM.
+\n\nvi.  Stall Speeds \u2014 Reviewed.
+\n\nvii. Clearing turn \u2014 90\u00B0 of turn at 30\u00B0 AOB."
+                android:textColor="@android:color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/cleanStall"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:padding="5sp"
+                android:text="Clean, Power Off"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/info2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="fill_horizontal"
+                android:padding="5dp"
+                android:text="i.   Ensure Stall Checklist completed.
+\n\nii.  Roll into 30\u00B0 AOB (clearing turn).
+\n\niii. Power \u2014 400 ft-lbs.
+\n\niv.  Roll wing level after 90\u00B0 of turn.
+\n\nv.   Reduce power to idle. Maintain wings level and current altitude. Stop trim at 100 KIAS.
+\n\nvi.  Immediately recover at the first indication of stall as outlined in the stall recovery procedure."
+                android:textColor="@android:color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/dirtyStallOff"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:padding="5sp"
+                android:text="Dirty, Power Off"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/info3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="fill_horizontal"
+                android:padding="5dp"
+                android:text="i.    Ensure Stall Checklist completed.
+\n\nii.   Roll into 30\u00B0 AOB (clearing turn).
+\n\niii.  Power \u2014 400 ft-lbs.
+\n\niv.   Select flaps approach. Maintain altitude.
+\n\nv.    Select gear down and complete the Landing Checklist.
+\n\nvi.   Roll wing level after 90\u00B0 of turn.
+\n\nvii.  Select flaps full down. Reduce power to idle. Maintain wings level and current altitude. Stop trim at 100 KIAS.
+\n\nviii. Immediately recover at the first indication of stall as outlined in the stall recovery procedure."
+                android:textColor="@android:color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/dirtyStallOn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:padding="5sp"
+                android:text="Dirty, Power On"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/info4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="fill_horizontal"
+                android:padding="5dp"
+                android:text="i.    Ensure Stall Checklist completed.
+\n\nii.   Roll into 30\u00B0 AOB (clearing turn).
+\n\niii.  Power \u2014 400 ft-lbs.
+\n\niv.   Select flaps approach. Maintain altitude.
+\n\nv.    Select gear down and complete the Landing Checklist.
+\n\nvi.   Roll wing level after 90\u00B0 of turn.
+\n\nvii.  Select flaps full down. Maintain wings level and current altitude. Stop trim at 100 KIAS.
+\n\nviii. Immediately recover at the first indication of stall as outlined in the stall recovery procedure."
+                android:textColor="@android:color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/approachStall"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:padding="5sp"
+                android:text="Approach Turn"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/info5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="fill_horizontal"
+                android:padding="5dp"
+                android:text="i.    Ensure Stall Checklist completed.
+\n\nii.   Roll into 30\u00B0 AOB (clearing turn).
+\n\niii.  Power \u2014 400 ft-lbs.
+\n\niv.   Select flaps approach. Maintain altitude.
+\n\nv.    Select gear down and complete the Landing Checklist.
+\n\nvi.   After 90\u00B0 of turn maintain 30\u00B0 AOB.
+\n\nvii.  Reduce power to 300 ft-lbs. Maintain 30\u00B0 AOB and current altitude. Stop trim at 100 KIAS.
+\n\nviii. Immediately recover at the first indication of stall as outlined in the stall recovery procedure."
+                android:textColor="@android:color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/stallIndications"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:padding="5sp"
+                android:text="Approach Turn"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/info6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="fill_horizontal"
+                android:padding="5dp"
+                android:text="Initiate recovery at the first indication of any of the following:
+\n\ni.    Stall warning horn.
+\n\nii.   Calculated stall speed.
+\n\niii.  Airframe buffet.
+\n\niv.   Uncontrollable loss of altitude.
+\n\nv.    Inability to maintain wings level/selected roll attitude."
+                android:textColor="@android:color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/stallNote"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Notes"
+                android:textColor="@android:color/black"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/stallNoteInfo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:padding="5dp"
+                android:text="1.    Solos shall not practice stalls.
+\n\n2.    If no stall indications are received by the calculated stall speed, the maneuver shall be terminated and the aircraft returned to maintenance."
+                android:textColor="@android:color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/stallRecovery"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:padding="5sp"
+                android:text="Stall Recovery"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/stallRecoveryInfo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="fill_horizontal"
+                android:padding="5dp"
+                android:text="Immediately regain flying speed with minimal altitude loss when recovering from a stalled condition. The T-44 climb performance will provide zero
+altitude loss under most conditions. Avoid large attitude and rapid configuration changes. Utilize the following procedures when recovering from a stalled condition:
+\n\ni.    Simultaneously:
+\n\n   (a).    Power \u2014 Maximum allowable.
+\n\n   (b).    Nose attitude \u2014 Adjust to break stall (relax back pressure to slightly lower the nose).
+\n\n   (c).    Level wings.
+\n\n   (d).    Center the ball.
+\n\nii.   Flaps \u2014 Approach (unless already up). Ensure the aircraft is level or climbing with 85 KIAS or greater prior to raising the flaps to approach.
+\n\niii.  Gear \u2014 Up (once a positive rate of climb is established).
+\n\niv.   Flaps \u2014 Up.
+\n\nv.    Airspeed \u2014 Vy."
+                android:textColor="@android:color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/note1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Notes"
+                android:textColor="@android:color/black"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/note1info"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:padding="5dp"
+                android:text="1.    The maneuver is complete when established in a climb on assigned heading and trimmed for Vy.
+\n\n2.    There is no assigned heading for approach turn stall recovery.
+\n\n3.    When performing this maneuver at high altitudes (above 8000' MSL), a secondary stall warning may sound if the pitch attitude is too high."
+                android:textColor="@android:color/black"
+                android:textSize="15sp" />
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

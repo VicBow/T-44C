@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="motivationalapps.t_44c.Maneuvers.BiCharliePattern">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/Title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="Charlie Pattern"
+                android:textColor="@android:color/black"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/info"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="fill_horizontal"
+                android:padding="5dp"
+                android:text="The purpose of the Charlie pattern is to develop fundamental instrument skills in a challenging maneuver.
+ The importance of scanning the attitude indicator, maintaining constant airspeeds while attaining altitude and heading checkpoints against the clock,
+ making proper corrections and smoothness should be emphasized.
+\n\na.   Straight and level (1 min).
+\n\n     i.     650 ft-lbs torque (approx.).
+\n\n     ii.    150 KIAS.
+\n\nb.   Climb 1000' at 667 FPM while executing a left SRT for 270\u00B0 (1.5 min).
+\n\n     i.     1000 ft-lbs torque (approx.)
+\n\n     ii.    150 KIAS.
+\n\nc.   Transition to straight and level (2 min).
+\n\n     i.     1000 ft-lbs torque (approx.).
+\n\n     ii.    Airspeed will vary with altitude.
+\n\nd.   Maintain altitude and reduce airspeed to 150 KIAS while executing a right SRT for 90° (30 secs). Descend 1000' at 500 FPM continuing a right SRT for 360° (2 min.).
+\n\n     i.     450 ft-lbs torque (approx.).
+\n\n     ii.    150 KIAS.
+\n\ne.   Climb 1000' at 500 FPM (2 min.).
+\n\n     i.     900 ft-lbs torque (approx.).
+\n\n     ii.    150 KIAS.
+\n\nf.   Transition to a level left SRT for 270\u00B0 (1.5 min.)
+\n\n     i.     700 ft-lbs torque (approx.)
+\n\n     ii.    150 KIAS.
+\n\ng.   Climb 1000' at 500 FPM (2 min.).
+\n\n     i.     900 ft-lbs torque (approx.).
+\n\n     ii.    150 KIAS.
+\n\nh.   Descend 2000' at 800 FPM while executing a right SRT for 450\u00B0 (2.5 min.).
+\n\n     i.     350 ft-lbs torque (approx.).
+\n\n     ii.    150 KIAS.
+\n\ni.   Transition to straight and level (maneuver complete).
+\n\n     i.     650 ft-lbs torque (approx.).
+\n\n     ii.    150 KIAS."
+                android:textColor="@android:color/black"
+                android:textSize="15sp" />
+
+            <ImageView
+                android:id="@+id/oscarPattern"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/charlie"/>
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

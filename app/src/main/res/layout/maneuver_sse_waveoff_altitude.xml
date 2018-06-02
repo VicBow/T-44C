@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="motivationalapps.t_44c.Maneuvers.SseWaveoffAltitude">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/Title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="SSE Waveoff at Altitude"
+                android:textColor="@android:color/black"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/info"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="fill_horizontal"
+                android:padding="5dp"
+                android:text="SSE waveoffs allow safe transition from SSE descending flight to maximum power, SSE climbing flight.
+The maneuver is designed to stop altitude loss as soon as possible while transitioning to a climb at a desired climb speed.
+Practice at altitude prepares the student for SSE waveoffs in the traffic pattern.
+The SSE waveoff is a demanding maneuver requiring precise aircraft control and expedient execution of procedures.
+Climb performance is directly proportional to how well the maneuver is executed. Limited power margins (especially at altitude) dictate exact execution.
+\n\nLevel off on a 1000 feet altitude plus 800 (i.e., 4800, 5800, etc.), 120 KIAS, on a numbered heading.
+This simulates 800 feet on the downwind leg of the traffic pattern.
+The IP will simulate a single-engine scenario by reducing one power lever to idle or simulating a situation requiring an engine to be secured.
+\u0022Power up, rudder up, clean up\u0022 and complete the Emergency Shutdown Checklist without delay.
+The IP will call \u0022Approaching the 180.\u0022 Lower the flaps and gear and complete the Landing Checklist.
+Immediately start a descending left turn to arrive at the \u002290\u0022 at 500 feet and a minimum of 110 KIAS.
+Continue the turn to \u0022final,\u0022 rolling out at 250 feet with a minimum of 110 KIAS and maximum of 120 KIAS.
+\n\nSmoothly place the props full forward. When IP calls \u0022Waveoff,\u0022 execute the memory items for the Single-Engine Waveoff Procedure IAW NATOPS Chapter 16.
+\n\nTransition to a climb attitude while adding power to the operative engine.
+Anticipate the need for simultaneous application of rudder. Keep the ball nearly centered (¼ to ½ out towards the operating engine) while using up to 5º AOB into the operating engine.
+Maintain a minimum of VXSE and a maximum of VYSE. Level off or descend if required to maintain flying speed. Under no circumstances allow speed to approach VSSE.
+\n\nThe maneuver is complete when established in a clean climb, minimum of VXSE (preferably VYSE), with the aircraft trimmed and in balanced flight."
+                android:textColor="@android:color/black"
+                android:textSize="15sp" />
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

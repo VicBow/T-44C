@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="motivationalapps.t_44c.emergency_procedures.PrimaryGovernorFailure">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/Title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="Primary Governor Failure/Malfunction"
+                android:textColor="@android:color/black"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/info"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="fill_horizontal"
+                android:padding="5dp"
+                android:text="Normally, the primary governor controls prop speeds within the range of 1,800 to 2,200 rpm. If the prop governor fails, the prop will either feather or overspeed. \nAn uncommanded and uncontrollable prop overspeed greater than 2,200 rpm indicates failure of the primary governor. If the primary governor fails in the overspeed condition, the overspeed governor will maintain a maximum prop speed of 2,288 ±40 rpm, but may not control minimum blade angle. \nIf the governor fails in the feather condition, thrust will be lost, torque will increase, prop rpm will decrease. The increase in torque and decrease in rpm is dependent upon the power setting at the time of failure. With climb power applied when the uncommanded feather occurs, the torque may exceed 2200 ft-lb and the prop may still be turning as high as 1100 rpm until power is reduced. \nCertain failures of the primary governor will cause the speed control as well as the minimum blade angle control (beta valve) to be inoperative. In this case, aircraft control will be marginal at lower airspeeds and lower engine power settings. Landing with an overspeeding prop is therefore strongly discouraged. However, if forced to land with an overspeeding prop, extra airspeed should be carried on final. This will increase rudder authority while reducing the probability of the prop going into beta in flight. Should the prop blades become jammed during engine power addition, the pneumatic section of the primary governor will act as a fuel topping governor as prop speeds exceed 2,332 rpm. \nIf prop rpm is out of the normal governing range, proceed as follows:"
+                android:textColor="@android:color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/step1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:padding="5sp"
+                android:text="*1. Attempt to adjust prop rpm to normal operating range by manipulating the prop lever. If normal rpm limits are restored, continue operation. If normal governing range cannot be maintained, as soon as practicable accomplish the following:"
+                android:textColor="@color/memoryItems"
+                android:textSize="18sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/step2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:padding="5sp"
+                android:text="\u271D*2. Power lever- IDLE"
+                android:textColor="@color/memoryItems"
+                android:textSize="18sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/step3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:padding="5sp"
+                android:text="\u271D*3. Prop lever - FEATHER"
+                android:textColor="@color/memoryItems"
+                android:textSize="18sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/warning1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/warning_square"
+                android:text="Warning"
+                android:textColor="@android:color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/warning1info"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="Prop rpm exceeding 2,420 may result in reduction gearbox failure and/or Np turbine damage."
+                android:textColor="@android:color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/note1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Note"
+                android:textColor="@android:color/black"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/note1info1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:padding="5dp"
+                android:text="\u2022 The engine with the disabled prop may be operated to provide electrical power."
+                android:textColor="@android:color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/note1info2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:padding="5dp"
+                android:text="\u2022 The right prop may not fully feather with the prop sync on."
+                android:textColor="@android:color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/note1info3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:padding="5dp"
+                android:text="\u2022 A fully feathered prop will still be turning at approximately 200 rpm with the engine running."
+                android:textColor="@android:color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/step4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:padding="5sp"
+                android:text="*4. Alternate Prop Feathering Checklist - As Required"
+                android:textColor="@color/memoryItems"
+                android:textSize="18sp"
+                android:textStyle="italic" />
+        </LinearLayout>
+    </ScrollView>
+
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="motivationalapps.t_44c.emergency_procedures.GeneratorFailure">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/Title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="Generator Failure"
+                android:textColor="@android:color/black"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/info"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="fill_horizontal"
+                android:padding="5dp"
+                android:text="If a generator fails (indicated by illumination of the respective RH or LH GEN OUT annunciator), all nonessential electrical equipment should be used with caution to avoid overloading the remaining generator. Loads in excess of single-generator output will drain the battery. If a generator fails and will not reset, current limiter status information is necessary because it relates to battery condition/duration. Three basic possibilities exist: (1) If the battery volt ammeter is not showing a discharge and no other equipment failures are noted, the current limiters are intact and the operating generator is providing all the DC power requirements. If the load is 1.0, turn off unnecessary equipment. (2) If the battery is showing a discharge and no other equipment failures are noted, the current limiter opposite the inoperative generator has failed. The battery is powering the equipment/buses on the inoperative generator's main bus. Consideration should be given to securing the aircraft battery and activating the AUX BATT. This will enable the flight crew to continue to operate the aircraft in a safe manner, have access to both communication and navigation equipment and still be able to conserve the aircraft battery for later use in the terminal area (lowering gear and flaps, etc.). If the battery is secured, the singularly powered items on the inoperative generator's main bus will be lost. The boost pump on that side will still be operating, since it is dual powered, and the battery will still show a discharge. For maximum battery conservation, consider securing that boost pump. If the boost pump is secured, the pressure light on that side will not illuminate since it is singularly powered. The crossfeed valve will still operate manually. (3) If the battery is not showing a discharge and other equipment failures are noted, (a fuel quantity gauge, a PFD, etc.) the current limiter has failed on the same side as the inoperative generator and this equipment will remain inoperative. The battery is not being discharged. Therefore, the operating generator is powering the hot battery bus. Monitor the operating generator's load. When generator failure is indicated, proceed as follows:"
+                android:textColor="@android:color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/step1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:padding="5sp"
+                android:text="*1. Starter \u2014 OFF"
+                android:textColor="@color/memoryItems"
+                android:textSize="18sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/step2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:padding="5sp"
+                android:text="*2. Generator \u2014 OFF, Reset momentarily, release slowly to ON."
+                android:textColor="@color/memoryItems"
+                android:textSize="18sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/note2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Note"
+                android:textColor="@android:color/black"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/note2info"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="If reset/on is attempted too quickly it can trip the opposite generator off."
+                android:textColor="@android:color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/info2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="fill_horizontal"
+                android:padding="5dp"
+                android:text="If generator will not reset:"
+                android:textColor="@android:color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/step3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:padding="5sp"
+                android:text="*3. Generator switch \u2014 OFF"
+                android:textColor="@color/memoryItems"
+                android:textSize="18sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/step4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:padding="5sp"
+                android:text="*4. Current limiter (Battery Ammeter) \u2014 Checked"
+                android:textColor="@color/memoryItems"
+                android:textSize="18sp"
+                android:textStyle="italic" />
+            <TextView
+                android:id="@+id/warning4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/warning_square"
+                android:text="Warning"
+                android:textColor="@android:color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/warning4info"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="If the current limiter check reveals a discharging battery, the current limiter opposite the failed generator is probably blown. This case may require prompt action to avoid draining the main battery \u2014 see possibility number (2) in the paragraph above. The combination of a failed generator, failed opposite side current limiter and a drained battery results in an unpowered hot battery bus and loss of fire extinguishing capability."
+                android:textColor="@android:color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/step5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:padding="5sp"
+                android:text="5. Operating generator \u2014 Do Not Exceed 1.0 Load"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/note5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Note"
+                android:textColor="@android:color/black"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/note5info"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="If the battery is supplying power to buses (discharging) either due to a failed generator and opposite side current limiter or due to a failed generator and excessive load on the operating generator, battery power may be available for as little as 10 minutes if electrical load is not reduced."
+                android:textColor="@android:color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/step6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:padding="5sp"
+                android:text="6. Generator switch \u2014 hold in reset while pushing the load voltmeter pushbutton to read voltage, then turn back to OFF."
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/note6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Note"
+                android:textColor="@android:color/black"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/note6info"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="Normal voltage in the rest position indicates failure of the generator control panel (located just aft of the main spar under the cabin center aisle) rather than the generator itself. Abnormal voltage indicates failure of the generator itself which could be overheating if binding/seizing due to mechanical failure."
+                android:textColor="@android:color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/step7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:padding="5sp"
+                android:text="7. Bleed air valve (failed generator side) \u2014 OPEN"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/warning7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/warning_square"
+                android:text="Warning"
+                android:textColor="@android:color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/warning7info"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:padding="5dp"
+                android:text="\u2022 Should smoke and/or fumes be detected immediately following a generator failure, the origin could be in the generator control panel or an internal malfunction of the generator itself. Intermittently opening and closing of the corresponding engine bleed air valve may help confirm an internal malfunction."
+                android:textColor="@android:color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/warning7info2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:padding="5dp"
+                android:text="\u2022 Consideration should be given to securing the corresponding engine to stop generator rotation and eliminate the fire hazard if smoke and fumes persist for an internal malfunction."
+                android:textColor="@android:color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/info1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="fill_horizontal"
+                android:padding="5dp"
+                android:text="If smoke and fumes are detected continue the checklist, if not, proceed to step 9."
+                android:textColor="@android:color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/step8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:padding="5sp"
+                android:text="8. Bleed air valve on the failed generator side \u2014 CLOSED"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/step9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:padding="5sp"
+                android:text="9. Land as soon as practicable."
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                android:textStyle="italic" />
+        </LinearLayout>
+    </ScrollView>
+
+
+</android.support.constraint.ConstraintLayout>

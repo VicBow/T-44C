@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="motivationalapps.t_44c.Maneuvers.Ditching">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/Title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="Ditching"
+                android:textColor="@android:color/black"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/info"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="fill_horizontal"
+                android:padding="5dp"
+                android:text="Simulated ditching allows practice of procedures required to successfully complete a water landing.
+Waveoffs following a simulated ditch shall be initiated no lower than 4000 feet AGL utilizing both engines.
+The instructor shall fly all ditch recoveries. The maneuver is complete upon simulated water impact. \u0022Sea Level\u0022 will be designated by the instructor
+(usually the bottom of the block). NATOPS discusses how to select an appropriate ditch heading.
+The weather information packet for operational flights usually contains recommended ditch headings for use when the crew cannot see the water surface.
+You should use all information available to select a ditch heading, but due to the limitations imposed by Seagull blocks,
+the IP may have to give you a ditch heading that will allow sufficient airspace to complete the maneuver.
+Ditching is most likely to be caused by an uncontrollable fire, fuel starvation, or dual engine failure.
+If ditching due to a low fuel state, complete the maneuver while power is still available on both engines. The following must be carefully managed for a successful ditch:"
+                android:textColor="@android:color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/step1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:padding="5sp"
+                android:text="Wings Level/Heading"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/info1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="fill_horizontal"
+                android:padding="5dp"
+                android:text="It does not do any good to fly a perfect ditch if the airplane hits a wave head-on.
+Ensure wings are level prior to impact. A couple of degrees off heading will not make much difference, but cart wheeling on impact could prove fatal."
+                android:textColor="@android:color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/step2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:padding="5sp"
+                android:text="Rate of Descent"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/info2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="fill_horizontal"
+                android:padding="5dp"
+                android:text="The airframe will absorb much of the impact, but not all of it. Excessive rates of descent greatly reduce the survivability of the ditch.
+The vertical deceleration will be almost instant on water impact. The greater the rate of descent, the higher the instantaneous G-load experienced by the crew."
+                android:textColor="@android:color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/step3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:padding="5sp"
+                android:text="Airspeed"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/info3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="fill_horizontal"
+                android:padding="5dp"
+                android:text="Do not get slow. The recommended airspeed provides a safety margin to ensure controllability of the aircraft.
+Since the aircraft decelerates in the horizontal over a longer period of time, slightly higher airspeeds are still survivable."
+                android:textColor="@android:color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/note1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Note"
+                android:textColor="@android:color/black"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/note1info"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="NATOPS provides an excellent discussion of ditching technique. The Ditching Checklist does not need to be memorized.
+General quizzing by instructors about checklist items is encouraged, but students are not expected to memorize these items."
+                android:textColor="@android:color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/step4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:padding="5sp"
+                android:text="Power Available (Both Engines)"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/info4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="fill_horizontal"
+                android:padding="5dp"
+                android:text="This situation would most likely be caused by a fuel problem (leak, poor planning, getting lost). Descend at a comfortable rate as you turn to the ditch heading. Complete the Ditching Checklist and follow NATOPS ditching techniques. Remember, nose attitude controls airspeed and power controls rate of descent.
+The Vertical Speed Indicator (VSI) lags, so concentrate on airspeed, allow the VSI to settle out and make required power adjustments. Utilize trim so the aircraft does the work."
+                android:textColor="@android:color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/step5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:padding="5sp"
+                android:text="Power Available (Single-Engine)"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/info5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="fill_horizontal"
+                android:padding="5dp"
+                android:text="This situation may be caused by an uncontrollable fire or other catastrophic engine failure. Time may be more critical since the fire may damage flight controls and/or structural integrity. Make an emergency descent as appropriate (if you are already close to the water a full blown emergency descent might increase your workload unnecessarily, but do make an effort to get down quickly). Select a ditch heading and complete the Ditching Checklist. Follow the NATOPS ditching technique. The single-engine ditch is essentially the same as the two-engine ditch.
+Power still controls rate of descent and nose attitude still controls airspeed. Keep the ball centered throughout the maneuver."
+                android:textColor="@android:color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/note2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Note"
+                android:textColor="@android:color/black"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/note2info"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="If power is available, there is no reason to hit the water out of the parameters. If your ditch is not looking good, add power, climb up a couple hundred feet, and start over."
+                android:textColor="@android:color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/step6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:padding="5sp"
+                android:text="Power Off"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/info6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="fill_horizontal"
+                android:padding="5dp"
+                android:text="The first priority after a dual engine failure is to attempt to regain the use of one or both engines. The altitude and airspeed at the time of the power loss will determine if this is an option.
+Use pitch attitude to slow to Maximum Range Glide Speed 130 KIAS, while maintaining your present altitude as long as possible."
+                android:textColor="@android:color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/note6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Note"
+                android:textColor="@android:color/black"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/note6info"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="At low altitude consideration should be given for using max endurance glide speed 102 KIAS in order to minimize altitude loss during attempted restart."
+                android:textColor="@android:color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/info6a"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="fill_horizontal"
+                android:padding="5dp"
+                android:text="Attempt a restart with the appropriate checklist. If light-off does not occur within 10 seconds,
+call for the Emergency Engine Shutdown Checklist. Continue to use pitch attitude to maintain Maximum Range Glide Speed as you complete the Emergency Engine Shutdown
+(minimum first three items as altitude permits) and Ditching Checklists. The idea is to trade airspeed for rate of descent."
+                android:textColor="@android:color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/step7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:padding="5sp"
+                android:text="Dual Engine Failure"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/info7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="fill_horizontal"
+                android:padding="5dp"
+                android:text="A simulated dual engine failure allows practice of restart procedures and may be followed by a simulated ditch.
+Simulated ditches shall not be practiced with an engine actually secured or a prop feathered.
+\n\nThe maneuver may be initiated in any configuration above SSE by the IP reducing both power levers to idle.
+It may be commenced following a simulated engine shutdown by reducing the remaining power lever to idle. You will select an appropriate ditch heading unless instructed otherwise.
+\n\nThe size of the working blocks (i.e., 2000 feet) generally do not allow sufficient time to complete a successful Starter-Assisted Airstart.
+Unless NATOPS recommends not attempting a restart (fire, etc.), or insufficient battery voltage exists, a simulated restart attempt should be made on both engines simultaneously.
+The following procedures should be utilized:
+\n\ni.   Clean up if required and commence a turn toward the coastline, a desired heading, or IP assigned heading while transitioning to max range airspeed. Max endurance airspeed will allow you more time for restart if altitude is minimal.
+\n\nii.  Simultaneously commence the Windmilling Airstart Checklist. Simulate both condition levers at fuel cutoff by pointing at both levers.
+The autoignition may be armed, or the starters may be simulated on, at the student’s discretion. The IP will state \u0022no lightoff\u0022 or \u0022lightoff on the left/right/both.\u0022
+If a restart is successful, add power and complete the checklist. If the restart fails, complete the Emergency Engine Shutdown Checklist (appropriate items as time permits)
+and follow ditching procedures.
+\n\niii. Stop engine restart attempts at some point during the engine out ditch. The engines should be secured by doing at least the first three items of the Emergency Shutdown Checklist. Place emphasis on flying a proper ditch.
+Attempting engine relights all the way to the water is likely to deplete all battery power if using the starters. This would eliminate the possibility of a successful IFR ditch."
+                android:textColor="@android:color/black"
+                android:textSize="15sp" />
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

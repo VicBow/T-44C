@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="motivationalapps.t_44c.Maneuvers.SlowFlight">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/Title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="Slow Flight"
+                android:textColor="@android:color/black"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/info"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="fill_horizontal"
+                android:padding="5dp"
+                android:text="Slow flight familiarizes pilots with low speed trim requirements and flight characteristics in the landing configuration.
+\n\nBegin on an assigned altitude and heading with props at 1900 RPM and 150 KIAS. Maintain a constant altitude thoughout the maneuver.
+\nProcedure are as follows:
+\n\na.   Power \u2014 400ft-lbs (initially, then as required).
+\n\nb.   Flaps \u2014 Approach, anticipate the ballooning effect when lowering flaps by pushing forward on the yoke and trimming accordingly.
+\n\nc.   Gear \u2014 Down, Landing Checklist complete.
+\n\nd.   Airspeed \u2014 Stabilized at 100 KIAS. Power must be added as the aircraft nears its target airspeed.
+\n\ne.   Turn \u2014 In either direction for 90\u00B0 at 30\u00B0 AOB. Stabilize momentarily, then turn back to the original heading. At slow airspeeds, the aircraft will reach 90\u00B0 of turn very quickly.
+\n\nf.   Flaps \u2014 Full (IAW flap limiting speeds). Anticipate ballooning and counter with trim.
+\n\ng.   Airspeed \u2014 Slow to 90 KIAS. Power must be added as the aircraft nears its target airspeed.
+\n\nh.   Turn \u2014 Complete another 90\u00B0 turn and reversal as before. Rate of turn will be faster at slower airspeeds.
+\n\ni.   Recover \u2014 Make a level recovery as follows:
+\n\n   i.   Power \u2014 Maximum allowable.
+\n\n   ii.  Flaps \u2014 Approach.
+\n\n   iii. Gear \u2014 Up.
+\n\n   iv.  Flaps \u2014 Up.
+\n\n   v.   Airspeed \u2014 150 KIAS. Adjust power as the aircraft nears 150 KIAS."
+                android:textColor="@android:color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/note1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Notes"
+                android:textColor="@android:color/black"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/note1info"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:padding="5dp"
+                android:text="1.   Retracting flaps at low airspeed causes the aircraft to initially settle unless you make a substantial attitude change (pitch up approximately 7-10 degrees).
+After acceleration, the nose will pitch up and require forward yoke pressure until the elevator can be re-trimmed. Use of manual trim may be helpful and faster. At lower airspeeds, increasing power
+requires right rudder. As airspeed increases, less rudder will be necessary to sustain balanced flight.
+\n\n2.   If any indication of stall is evident during the maneuver (e.g., stall warning horn), add power, decrease Angle of Attack (AOA), and commence stall recovery procedures. Continuation of the maneuver is at the IP's discretion.
+\n\n3.   On all maneuvers, gear and flaps may be cycled simultaneously, electrical loads permitting. Do not select flaps full down or full up without stopping at approach flaps first. Do not reverse the travel of the gear or flaps while in transit."
+                android:textColor="@android:color/black"
+                android:textSize="15sp" />
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="motivationalapps.t_44c.Maneuvers.DynamicEngineCut">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/Title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="Dynamic Engine Cut"
+                android:textColor="@android:color/black"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/info"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="fill_horizontal"
+                android:padding="5dp"
+                android:text="The dynamic engine cut simulates an engine failure immediately after takeoff with a windmilling prop.
+It allows practice of critical single-engine skills at a safe altitude. Emphasis is on heading and airspeed control, minimum loss of altitude, and completion of emergency checklist items."
+                android:textColor="@android:color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/step1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:padding="5sp"
+                android:text="Maneuver Setup"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/info1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="fill_horizontal"
+                android:padding="5dp"
+                android:text="Begin on a numbered heading at 150 KIAS. Maintain level flight prior to setting a takeoff attitude. Utilize the following steps:
+\n\na.   Prop Sync \u2014 Off.
+\n\nb.   Trim \u2014 2\u00B0 up and do not re-trim until after rotation. Utilize pitch to maintain altitude as airspeed bleeds off.
+\n\nc.   Power \u2014 300 ft-lbs.
+\n\nd.   Props \u2014 Full forward.
+\n\ne.   Altitude \u2014 Minimum 5000 feet AGL, or 8000 feet AGL with 5000 feet above a cloud deck.
+\n\nf.   Flaps \u2014 Up (normal takeoff configuration).
+\n\ng.   Gear \u2014 Down. Landing Checklist complete."
+                android:textColor="@android:color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/note1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Note"
+                android:textColor="@android:color/black"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/note1info"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="A handy memory aid for setting up the Dynamic Engine Cut is the \u00225,4,3,2,1, Gear Down/Landing Checklist\u0022 technique, as follows:
+\n\n   FIVE \u2014 5000 feet minimum
+\n\n   FOUR \u2014 Propellers full forward
+\n\n   THREE \u2014 300 ft-lbs torque
+\n\n   TWO \u2014 2 degrees nose up trim
+\n\n   ONE \u2014 Prop Sync Switch - Off
+\n\n   GEAR DOWN, LANDING CHECKLIST"
+                android:textColor="@android:color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/info2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="fill_horizontal"
+                android:padding="5dp"
+                android:text="Approaching 95 KIAS; smoothly apply takeoff power and rotate to the takeoff attitude (7-10 degrees up). Maintain heading. Anticipate the need for right rudder with power application."
+                android:textColor="@android:color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/note2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Note"
+                android:textColor="@android:color/black"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/note2info"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="IP will not call \u0022Go\u0022 as airspeed approaches 95 KIAS. Once takeoff power is set, the IP will call \u0022Rotate.\u0022"
+                android:textColor="@android:color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/info3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="fill_horizontal"
+                android:padding="5dp"
+                android:text="At a speed above VSSE the IP will pull one power lever to idle, simulating an engine failure.
+Raise your hand slightly when you feel the IP pull a power lever back. Do not grip the power levers so tightly that the IP cannot move the control.
+Do not attempt to anticipate which engine will be failed. An actual engine failure will be a surprise and require prompt recognition and action.
+\n\nPrimary scan should be outside on the horizon. Pick a point (i.e., a cloud) to assist in controlling yaw.
+Immediately stop the yaw utilizing rudder and aileron and adjust the nose attitude to maintain a positive rate of climb and appropriate airspeed (minimum of 91 KIAS (Vsse),
+accelerating to 102 KIAS (Vxse)/110 KIAS (Vyse).
+Substantial rudder pressure will be required. Use a maximum of 5º AOB into the operating engine to help maintain heading.
+Once aircraft control is fully regained, execute the Engine Failure After Takeoff Procedure IAW NATOPS Chapter 14.
+\n\nIdentify the failed engine utilizing engine instruments (torque, ITT, N1, fuel flow) and rudder pressure. Your foot working hard to maintain heading is on the same side as the operating engine.
+Your non-working foot (dead foot) is on the same side as the dead engine. Do not look at the power levers to initially determine which engine has failed.
+During an actual engine failure they would both be matched.
+\n\nHold the checklist momentarily after executing the first three memory items of the Emergency Shutdown Checklist and pull the props back to 1900 RPM. Reset maximum power and check to see if the prop feathered. If it did not, call for the Alternate Feathering Checklist. If it did feather, and the malfunction was a fire or fuel leak,
+continue the Emergency Shutdown Checklist with steps 4-6. Otherwise declare an emergency, and continue the Emergency Shutdown Checklist as times permits.
+\n\nThe maneuver is complete when the aircraft is climbing trimmed at VYSE (minimum VXSE), on takeoff heading, comms passed to the PM, and the Emergency Shutdown Checklist has been executed."
+                android:textColor="@android:color/black"
+                android:textSize="15sp" />
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

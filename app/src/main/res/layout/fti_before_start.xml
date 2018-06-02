@@ -1,0 +1,630 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="motivationalapps.t_44c.Fti_Checklists.FtiBeforeStart">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/Title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="F101. Before Start Checklist"
+                android:textColor="@android:color/black"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/info"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="fill_horizontal"
+                android:padding="5dp"
+                android:text="Pound (#) items constitute an abbreviated Before Start Checklist that may be utilized on the
+ground when a subsequent restart of one engine is intended. The abbreviated Before Start
+Checklist may be utilized after, and only after, the abbreviated Secure Checklist has been
+executed. \nThe Before Start Checklist ensures aircraft systems are functioning properly and all switches are
+properly set prior to engine start. The following checklist is predicated on a battery start:"
+                android:textColor="@android:color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/step1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:padding="5sp"
+                android:text="1. SEATBELTS -- \u0022FASTENED\u0022 (PF, OBS, PM)"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/info1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="fill_horizontal"
+                android:padding="5dp"
+                android:text="PF ensures all personnel have seatbelts fastened. The lap belt must be snug around the hips and not riding up toward the chest. The belts should operate freely. The OBS may remain unbelted until the cabin door is closed (just prior to start on hot days)."
+                android:textColor="@android:color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/step2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:padding="5sp"
+                android:text="2. PARKING BRAKE -- \u0022SET\u0022 (LS)"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/info2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="fill_horizontal"
+                android:padding="5dp"
+                android:text="LS ensures the brake handle pulled out fully and brakes pumped firm. RS cannot set the parking brake."
+                android:textColor="@android:color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/step3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:padding="5sp"
+                android:text="3. CIRCUIT BREAKERS -- \u0022SET\u0022 (PF, PM)"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/info3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="fill_horizontal"
+                android:padding="5dp"
+                android:text="LS ensures pedestal and fuel circuit breakers (CBs) are set. RS ensures right sub-panel and engine instrument CBs are set."
+                android:textColor="@android:color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/step4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:padding="5sp"
+                android:text="4. ELECTRICAL PANEL -- \u0022SET\u0022 (PF)"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/info4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="fill_horizontal"
+                android:padding="5dp"
+                android:text="PF ensures starter, auto-ignition, avionics master, inverters, aux battery, and battery/generators (gangbar) switches are OFF."
+                android:textColor="@android:color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/step5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:padding="5sp"
+                android:text="5. EMERGENCY STATIC AIR -- \u0022NORMAL\u0022 (RS)"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/info5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="fill_horizontal"
+                android:padding="5dp"
+                android:text="RS ensures emergency static air switch is NORMAL."
+                android:textColor="@android:color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/step6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:padding="5sp"
+                android:text="6. AUDIO CONTROL PANEL -- \u0022SET\u0022 (PF, OBS, PM)"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/info6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="fill_horizontal"
+                android:padding="5dp"
+                android:text="PF and PM individually set audio switches and volumes. The following is a trypical set-up:
+\n\na.\u0009\u0009VHF audio - On (PF, PM)
+\n\nb.\u0009\u0009V/UHF audio - On (PF, PM)
+\n\nc.\u0009\u0009Transmit selector - V/UHF (PF), VHF (PM)
+\n\nd.\u0009\u0009SPKR - OFF (PF, PM, OBS)
+\n\ne.\u0009\u0009MIC - BOOM (PF, PM)
+\n\nf.\u0009\u0009VOX, RX, ICS VOL - Volume set, ensure VOX is set to the 9 o'clock position or ICS will be cut out (PF, PM)
+\n\ng.\u0009\u0009ISO/EMR/NORMAL - NORMAL (PF, PM, OBS)
+\n\nh.\u0009\u0009121.5 EMER - Pushbutton in (PF)
+\n\ni.\u0009\u0009Transponder - STBY (PF)
+\n\nj.\u0009\u0009ADC, AHRS, RMT TUNE, RTU/CDU TUNE, DG SWITCHES - NORMAL (PF)
+\n\nk.\u0009\u0009NOISE CANCELLATION SWITCH - ON (PF, PM)"
+                android:textColor="@android:color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/step7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:padding="5sp"
+                android:text="7. GEAR -- \u0022DOWN\u0022 (PF)"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/info7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="fill_horizontal"
+                android:padding="5dp"
+                android:text="PF ensures gear handle is in the down position and J-hook engaged. Do not touch the gear handle on the ground."
+                android:textColor="@android:color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/step8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:padding="5sp"
+                android:text="8. FLAPS -- \u0022CORRESPOND\u0022 (PF, PM)"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/info8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="fill_horizontal"
+                android:padding="5dp"
+                android:text="PF and PM ensure flap handle corresponds visually with flap position. \nFlap indicator will be inoperative with no power on the aircraft."
+                android:textColor="@android:color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/step9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:padding="5sp"
+                android:text="9. CONDITION LEVERS -- \u0022FUEL CUTOFF\u0022 (PF)"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/info9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="fill_horizontal"
+                android:padding="5dp"
+                android:text="PF ensures condition lever(s) are at FUEL CUTOFF and sets friction."
+                android:textColor="@android:color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/step10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:padding="5sp"
+                android:text="10. PROPS -- \u0022FULL FORWARD\u0022 (PF)"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/info10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="fill_horizontal"
+                android:padding="5dp"
+                android:text="PF moves props from FEATHER to full forward and sets friction."
+                android:textColor="@android:color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/step11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:padding="5sp"
+                android:text="11. POWER LEVERS -- \u0022IDLE\u0022 (PF)"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/info11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="fill_horizontal"
+                android:padding="5dp"
+                android:text="PF ensures power levers are down and against the idle stop and sets friction."
+                android:textColor="@android:color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/caution1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/caution_square"
+                android:text="Caution"
+                android:textColor="@android:color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/caution1info"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="Do not move the power levers aft of the idle position when the engines are not running. Damage to the reversing mechanism will result."
+                android:textColor="@android:color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/step12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:padding="5sp"
+                android:text="12. LIGHTS -- \u0022AS REQUIRED\u0022 (LS)"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/info12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="fill_horizontal"
+                android:padding="5dp"
+                android:text="Beacons are on any time the engines are turning. Display navigation lights during the period 30 minutes before official sunset until 30 minutes after official sunrise, or at any time when prevailing visibility, as seen from the cockput, is less than 3 statute miles. Turn on navigation lights during formation taxi."
+                android:textColor="@android:color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/step13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:padding="5sp"
+                android:text="13. ANTI-ICE/DEICE -- \u0022OFF\u0022 (LS)"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/info13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="fill_horizontal"
+                android:padding="5dp"
+                android:text="LS ensures all anti-ice/deice switches are OFF and ice vane controls are in."
+                android:textColor="@android:color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/step14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:padding="5sp"
+                android:text="14. FUEL PANEL -- \u0022CHECKED, SET\u0022 (LS)"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/info14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="fill_horizontal"
+                android:padding="5dp"
+                android:text="LS performs the following checks:
+\n\na.\u0009\u0009Fuel Panel CBs - In.
+\n\nb.\u0009\u0009Firewall shutoff valve switches - Open. Safety guards-in place and wired.
+\n\nc.\u0009\u0009Crossfeed Valve - Open. Check crossfeed light on.
+\n\nd.\u0009\u0009Crossfeed Valve - Closed. Check crossfeed light out.
+\n\ne.\u0009\u0009Boost pumps - On. Check battery ammeter for discharge as each pump is turned on. Pump operation may be audible.
+\n\nf.\u0009\u0009Battery - On. Check LH and RH Fuel Pressure annunciator lights out."
+                android:textColor="@android:color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/step15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:padding="5sp"
+                android:text="15. FUEL QUANTITY -- \u0022CHECKED\u0022 (LS)"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/note1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Note"
+                android:textColor="@android:color/black"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/note1info"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:padding="5dp"
+                android:text="1.\u0009\u0009LS checks and reports total indeicated fuel in LH and RH systems. Ensure maximum split of 100 lbs. LS checks and reports indicated fuel in LH and RH nacelle tanks and quantity out of the yellow range. Ensure maximum split of 50 lbs.
+\n\n2.\u0009\u0009Do not tap the fuel quantity indicators at any time."
+                android:textColor="@android:color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/step16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:padding="5sp"
+                android:text="16. ANNUNCIATOR PANEL -- \u0022CHECKED\u0022 (PF)"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/info16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="fill_horizontal"
+                android:padding="5dp"
+                android:text="a.\u0009\u0009PF and PM perform the following check:
+\n\nb.\u0009\u0009RS presses and holds Press-to-Test button. LS ensures all annunciator lights, \u0022Terrain,\u0022 \u0022Pull Up,\u0022 and \u0022Terrain NA\u0022 lights illuminate, EMER 121.5 illuminated, and Fault Warning light flashing.
+\n\nc.\u0009\u0009LS resets Fault Warning light and ensures the light goes out."
+                android:textColor="@android:color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/note2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Note"
+                android:textColor="@android:color/black"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/note2info"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="Whenever the Fault Warning illuminates, cancel as soon as possible. Should the light illuminate again, this will alert the crew to any other faults."
+                android:textColor="@android:color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/info16b"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="fill_horizontal"
+                android:padding="5dp"
+                android:text="d.\u0009\u0009LS confirms dimmer operable by adjusting full up and down then sets to desired level. Observe \u0022Terrain NA\u0022 light dims with dim control.
+\n\ne.\u0009\u0009RS releases Press-to-Test button."
+                android:textColor="@android:color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/note3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Note"
+                android:textColor="@android:color/black"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/note3info"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="While the Fault Warning light is flashing, the dimmer is inoperative and all annunciator lights are at maximum brilliance."
+                android:textColor="@android:color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/step17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:padding="5sp"
+                android:text="17. FIRE DETECTORS -- \u0022CHECKED\u0022 (PF, PM)"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/info17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="fill_horizontal"
+                android:padding="5dp"
+                android:text="LS rotates the Fire Detection Test switch clockwise and ensures the Fault Warning, LH FIRE annunciator, and LH FIRE EXT PUSH TO EXT lights illuminate. RS ensures RH FIRE annunciator and RH FIRE EXT PUSH TO EXT lights illuminate. LS first reports \u0022Three\u0022 and RS responds \u0022Two\u0022 at each selector position. Do not cancel fault warning until switch is rotated back to off."
+                android:textColor="@android:color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/note4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Note"
+                android:textColor="@android:color/black"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/note4info"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="During warm weather operations, if no delay in starting is anticipated, the OBS closes the cabin door, ensures four bolts in place/locking mechanism seated, while crew performs the fire detector check."
+                android:textColor="@android:color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/step18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:padding="5sp"
+                android:text="18. OVERHEAD LIGHTS -- \u0022SET\u0022 (PF, PM)"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/info18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="fill_horizontal"
+                android:padding="5dp"
+                android:text="PF ensures Master Cockpit Lights switch is on and turns Overhead Map Light rheostat full bright. PF checks for operation of OAT gauge light, and pushes Master Cockpit Lights switch as required to extinguish the overhead map light.
+PF and PM set Pilot Display and Copilot Display rheostat knobs to full bright for Primary Flight Display (PFD) brightness. PF and PM ensure all other lights, including both utility lights, are OFF.
+If operating at night or in the simulator, set lights as required."
+                android:textColor="@android:color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/note5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Note"
+                android:textColor="@android:color/black"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/note5info"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="Master Cockpit Light switch does not control pilot and copilot PFD rheostats."
+                android:textColor="@android:color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/step19"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:padding="5sp"
+                android:text="19. OXYGEN -- \u0022OPEN\u0022 (PF)"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/info19"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="fill_horizontal"
+                android:padding="5dp"
+                android:text="Pull Oxygen Push/Pull knob and ensure green in the regulators."
+                android:textColor="@android:color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/step20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:padding="5sp"
+                android:text="20. CABIN DOOR -- \u0022LOCKED\u0022 (PF, OBS)"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/info20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="fill_horizontal"
+                android:padding="5dp"
+                android:text="PF and OBS ensure the cabin door is locked and CABIN DOOR OPEN annunciator light is out."
+                android:textColor="@android:color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/step21"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:padding="5sp"
+                android:text="21. CABIN SIGN -- \u0022AS REQUIRED\u0022 (LS)"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/info21"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="fill_horizontal"
+                android:padding="5dp"
+                android:text="If the OBS has been properly briefed, or if no occupants are in the aft cabin, the sign may be left off. This is desirable at night due to distracting cabin illumination caused by the sign.
+If carrying passengers, the sign must be utilized or the passengers briefed to fasten seatbelts. PM reports \u0022Before start Checklist complete.\u0022"
+                android:textColor="@android:color/black"
+                android:textSize="15sp" />
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

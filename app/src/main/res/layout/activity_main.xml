@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical"
+    tools:context="motivationalapps.t_44c.MainActivity"
+    android:weightSum="1.0">
+
+
+    <Button
+        android:id="@+id/EPButton"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".2"
+        android:text="Emergency Procedures"
+        android:background="@drawable/background"
+        android:textColor="@android:color/white"
+        android:layout_margin="5dp"
+        style="@android:style/TextAppearance.DeviceDefault.Large"/>
+
+    <Button
+        android:id="@+id/OPButton"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".2"
+        android:text="Operational Limits"
+        android:background="@drawable/background"
+        android:textColor="@android:color/white"
+        android:layout_below="@+id/EPButton"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        style="@android:style/TextAppearance.DeviceDefault.Large"/>
+
+    <Button
+        android:id="@+id/ChecklistButton"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".2"
+        android:text="Checklists"
+        android:background="@drawable/background"
+        android:textColor="@android:color/white"
+        android:layout_below="@+id/OPButton"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        style="@android:style/TextAppearance.DeviceDefault.Large"/>
+
+    <Button
+        android:id="@+id/ManeuverButton"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".2"
+        android:text="Maneuvers"
+        android:background="@drawable/background"
+        android:textColor="@android:color/white"
+        android:layout_below="@+id/ChecklistButton"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        style="@android:style/TextAppearance.DeviceDefault.Large"/>
+
+    <Button
+        android:id="@+id/FeedbackButton"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".2"
+        android:text="Feedback"
+        android:background="@drawable/background"
+        android:textColor="@android:color/white"
+        android:layout_below="@+id/ManeuverButton"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        style="@android:style/TextAppearance.DeviceDefault.Large"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/last_updated"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            style="@android:style/TextAppearance.DeviceDefault.Small"/>
+    </LinearLayout>
+
+</LinearLayout>

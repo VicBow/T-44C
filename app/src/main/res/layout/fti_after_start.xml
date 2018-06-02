@@ -1,0 +1,479 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="motivationalapps.t_44c.Fti_Checklists.FtiAfterStart">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/Title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="F103. After Start Checklist"
+                android:textColor="@android:color/black"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/info"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="fill_horizontal"
+                android:padding="5dp"
+                android:text="The After Start Checklist is designed to check/set systems prior to taxi. Minimum time in the line area is desired once the engines have been started.
+The PF will initiate all actions to obtain ATIS, get a radio check with Montana Base, etc."
+                android:textColor="@android:color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/step1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:padding="5sp"
+                android:text="1. ENVIRONMENTAL CONTROLS -- \u0022SET\u0022 (RS)"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/info1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="fill_horizontal"
+                android:padding="5dp"
+                android:text="RS sets environmental controls as desired."
+                android:textColor="@android:color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/step2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:padding="5sp"
+                android:text="2. DC GENERATOR VOLTAGES -- \u0022CHECKED\u0022 (LS)"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/info2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="fill_horizontal"
+                android:padding="5dp"
+                android:text="LS simultaneously presses both PRESS FOR VOLTS pushbuttons on DC BUS meters and checks voltages 27.45-29.05 Volts (28.25\u00B10.8)."
+                android:textColor="@android:color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/step3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:padding="5sp"
+                android:text="3. INVERTERS -- \u0022NOT REQUIRED\u0022 (PF)"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/step4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:padding="5sp"
+                android:text="4. AUX BATTERY/AVIONICS MASTER -- \u0022CHECKED/ON\u0022 (PF)"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/info4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="fill_horizontal"
+                android:padding="5dp"
+                android:text="PF performs the following check:
+\n\na.\u0009\u0009Turn the AUX/BATT switch to the ON/ARMED position and verify the AUX/Batt light illuminates and the RTU powers up.
+\n\nb.\u0009\u0009Turn the Avionics Master switch ON, confirm that the AUX/Batt light extinguishes, and wait for the AHRS #1 to align before proceeding to step 7. (This will take approximately 30-35 seconds)"
+                android:textColor="@android:color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/note4a"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Note"
+                android:textColor="@android:color/black"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/note4ainfo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="Setting the ESIS Switch ON prior to AHRS #1 alignment may result in ESIS drift. Should this occur, correct the problem utilizing the FAST ALIGN option in the ESIS menu once the ESIS itself has aligned."
+                android:textColor="@android:color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/info4a"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="fill_horizontal"
+                android:padding="5dp"
+                android:text="c.\u0009\u0009Once Avionics Master and AUX/BATT are on, PF, PM, OBS don headsets and perform ICS checks."
+                android:textColor="@android:color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/note4b"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Note"
+                android:textColor="@android:color/black"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/note4binfo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="If full anti-ice/deice checks are being conducted, consideration should be given to utilizing the lineman to check proper inflation/deflation of the pneumatic boots
+on the vertical stabilizer and elevator. Coordination with lineman to check proper inflation/deflation of the boots should be done prior to starting engines."
+                android:textColor="@android:color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/info4b"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="fill_horizontal"
+                android:padding="5dp"
+                android:text="At NGP, in order to free the lineman, hold the checklist after completing Step 4 (AHRS 1 and 2 aligned). Brief the PM to \u0022Keep me clear on the right during all taxi
+and ground ops and let base know we are out of the chocks.\u0022 Signal \u0022brake check\u0022 to the lineman. When signaled to move forward, report \u0022Clear left.\u0022
+PM responds \u0022Clear right.\u0022 Taxi slowly forward as directed for a brake check.
+\n\nAfter the lineman is saluted and the aircraft is stopped five feet short of the taxiway, set the parking brake and direct the PM to \u0022Contrinue the checklist.\u0022"
+                android:textColor="@android:color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/step5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:padding="5sp"
+                android:text="5. TRANSFER PUMPS -- \u0022CHECKED, AUTO\u0022 (LS)"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/info5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="fill_horizontal"
+                android:padding="5dp"
+                android:text="LS performs the following checks:
+\n\na.\u0009\u0009LS holds TRANSFER TEST switch in L position and places left TRANSFER PUMP switch to AUTO. Check for a momentary flicker of LH NO FUEL TRANSFER annunciator light. Reset FAULT WARNING if illuminated.
+\n\nb.\u0009\u0009Repeat test for right transfer pump.
+\n\nc.\u0009\u0009Verify both pumps are in AUTO."
+                android:textColor="@android:color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/note5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Note"
+                android:textColor="@android:color/black"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/note5info"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="If flicker is not visible, check annunciator panel dim switch. If it is set too low, flicker may not be visible."
+                android:textColor="@android:color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/step6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:padding="5sp"
+                android:text="6. CROSSFEED -- \u0022CHECKED, AUTO\u0022 (LS)"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/info6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="fill_horizontal"
+                android:padding="5dp"
+                android:text="LS performs the following checks:
+\n\na.\u0009\u0009Crossfeed valve - AUTO
+\n\nb.\u0009\u0009Left boost pump - OFF
+\n\nc.\u0009\u0009LH FUEL PRESS annunciator light will illuminate and almost instantly go out as the crossfeed valve opens. Verify the FUEL CROSSFEED annunciator light on. Reset the FAULT WARNING light if illuminated.
+\n\nd.\u0009\u0009Left boost pump - ON
+\n\ne.\u0009\u0009Crossfeed valve - CLOSED then AUTO. Closing the crossfeed valve resets the system.
+\n\nf.\u0009\u0009Repeat test (Steps b-e) for the right boost pump.
+\n\ng.\u0009\u0009Verify the crossfeed valve is in AUTO."
+                android:textColor="@android:color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/step7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:padding="5sp"
+                android:text="7. ESIS SWITCH -- \u0022ON\u0022 (PF)"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/info7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="fill_horizontal"
+                android:padding="5dp"
+                android:text="After AHRS #1 has aligned, PF turns ESIS Switch - ON"
+                android:textColor="@android:color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/note7a"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Note"
+                android:textColor="@android:color/black"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/note7ainfo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="Do not taxi until the ESIS has aligned."
+                android:textColor="@android:color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/info7a"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="fill_horizontal"
+                android:padding="5dp"
+                android:text="Typical alignment time for the ESIS is approximately 2-3 minutes with a maximum expected alignment time of 6 minutes. It is permissible to conduct further checks while the ESIS is aligning."
+                android:textColor="@android:color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/note7b"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Note"
+                android:textColor="@android:color/black"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/note7binfo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="With the AUX/ON light illuminated and the ESIS switch ON, the Avionics Essential Bus is providing power to the ESIS display, RTU, COM 1, NAV 1, pilot's, co-pilot's, and observer's audio system."
+                android:textColor="@android:color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/warning7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/warning_square"
+                android:text="Warning"
+                android:textColor="@android:color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/warning7info"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="Unless a greater emergency dictates otherwise, the ESIS shall remain on for the duration of the flight."
+                android:textColor="@android:color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/step8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:padding="5sp"
+                android:text="8. GENERATOR LOAD -- \u0022CHECKED\u0022 (LS)"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/info8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="fill_horizontal"
+                android:padding="5dp"
+                android:text="LS checks left and right generator load within 0.1. If either individual load is above 0.5 reduce electrical load (turn off heater or air conditioner if not required),
+or increase N1. Match both condition levers at the same N1 setting if a position above LOW IDLE is required (refer to NATOPS, Figure 4-2, Part 1, page 4-6)."
+                android:textColor="@android:color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/step9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:padding="5sp"
+                android:text="9. MFD -- \u0022CHECKED/SET\u0022 (PF)"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/info9a"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="fill_horizontal"
+                android:padding="5dp"
+                android:text="Set MFD switch to ON (if not already).
+\n\na.\u0009\u0009Verify self-test passed. Press LSK to allow database check.
+\n\nb.\u0009\u0009Check database currency and press LSK.
+\n\nc.\u0009\u0009Select TRFC on the MFD.
+\n\nd.\u0009\u0009Using the control knob, select TST on the display.
+\n\ne.\u0009\u0009Observe the test pattern on display and verbal \u0022TAS SYSTEM TEST OK.\u0022
+\n\nf.\u0009\u0009Set view to NORMAL for local training missions, set range as desired and rotate control knob to ON.
+\n\ng.\u0009\u0009Verify TERR N/A annunciator light is out.
+\n\nh.\u0009\u0009Select TERR on the MFD.
+\n\ni.\u0009\u0009Using the control knob, select TST on the display.
+\n\nj.\u0009\u0009Observe test pattern on display and verbal \u0022EGPWS SYSTEM OK.\u0022 Set range as desired and select Normal.
+\n\nk.\u0009\u0009Select MAP and set overlay/range as desired. Typical setting is TAS overlay with range set to 10-20 NM."
+                android:textColor="@android:color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/info9b"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="fill_horizontal"
+                android:padding="5dp"
+                android:text="PF directs PM to \u0022Hold the checklist.\u0022 Select V/UHF channel 1 and copy ATIS. If required, select channel 2 and put clearance on request. Then, select channel 3 and request taxi. During taxi, it is extremely important to clear before crossing any runways or taxiways.
+\n\nDepart line area and enter taxiway. Note proper turn needle and ball deflection as you turn onto Charlie taxiway from the line area, ensure the Turn needle/Ball, ESIS, and PFD slip/skid bars properly deflect.
+Ensure PF and PM heading indicators and ESIS heading indicator are properly tracking and aligned. PM verifies corresponding indications on PM's heading indicator.
+PF will observe PFD heading indications and report the following: \u0022Needle Left/(Right), 1-2-3 Right/(Left), mark heading 360, ready ready, mark.\u0022
+\n\nOnce on taxi centerline slowly pull both power levers into reverse and note symmetric acceleration on both engine N1 gauges. Noting prop RPM gauge indications does not satisfy this check.
+The intent is to ensure symmetric \u0022engine\u0022 spool-up not propeller spool-up. Utilize minimum reverse required to verify peoper operation and then return power levers towards idle.
+It is not necessary to bring the aircraft to a complete stop. Have the PM take the controls momentarily for a brake check.
+\n\nDirect the PM to \u0022Continue the checklist.\u0022 Do not taxi between runway/taxiway edge lighting while making final turn in the runup areas."
+                android:textColor="@android:color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/caution9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/caution_square"
+                android:text="Caution"
+                android:textColor="@android:color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/caution9info"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="Minimize use of reverse at slow taxi speeds. Use of reverse range in surface areas containing loose sand or small stones may cause propeller blade erosion."
+                android:textColor="@android:color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/step10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:padding="5sp"
+                android:text="10. TURN INDICATORS/COMPASSES -- \u0022CHECKED\u0022 (PF, PM)"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/info10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="fill_horizontal"
+                android:padding="5dp"
+                android:text="Only one direction for turn needle, ball, and slip checks is required."
+                android:textColor="@android:color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/step11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:padding="5sp"
+                android:text="11. BRAKES -- \u0022CHECKED\u0022 (PF, PM)"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/info11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="fill_horizontal"
+                android:padding="5dp"
+                android:text="PM reports \u0022After Start Checklist complete\u0022"
+                android:textColor="@android:color/black"
+                android:textSize="15sp" />
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

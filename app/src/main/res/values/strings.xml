@@ -1,0 +1,189 @@
+<resources>
+    <string name="app_name">T-44C</string>
+    <string name="button_feedback">Send Feedback</string>
+    <string name="title_send_feedback">Send Feedback</string>
+    <string name="mail_feedback_email">motivationalapps2017@gmail.com</string>
+    <string name="mail_feedback_subject">Feedback on your app</string>
+    <string name="title_activity_fti_checklists">FtiChecklists</string>
+    <string name="feedback_info">Is there something in the app that has changed? Let me know! (And if you can supply the change, that would be super helpful.) \nIs there something that you would like to have added/subtracted? Let me know about that too. \nOr if you want to give me any sort of feedback, just fill it in to shoot me an email. Thanks!
+    \n\nNOTE: The \u0022Send Feedback\u0022 button will take you to your email client with the information you provide. Feel free to attach a screenshot to the email, it would help tremendously.</string>
+    <string name="last_updated">Last Updated: 19 April 2018 \nv2.0.0.1</string>
+
+    <string-array name="mainMenu">
+        <item>Emergency Procedures</item>
+        <item>Operational Limits</item>
+        <item>Checklists</item>
+        <item>Maneuvers</item>
+        <item>Feedback</item>
+    </string-array>
+
+    <string-array name="emergencyProcedures">
+        <item>Abnormal Start</item>
+        <item>Emergency Shutdown on Deck</item>
+        <item>Aborting Takeoff</item>
+        <item>Engine Failure After Takeoff</item>
+        <item>Emergency Shutdown Checklist</item>
+        <item>Jammed Power Lever</item>
+        <item>Windmilling Airstart</item>
+        <item>Smoke/Fire of Unknown Origin</item>
+        <item>Smoke and Fume Elimination</item>
+        <item>Fuel Leaks</item>
+        <item>Generator Failure</item>
+        <item>Primary Governor Failure/Malfunction</item>
+        <item>Explosive Decompression</item>
+        <item>Emergency Descent</item>
+        <item>Spin/Out of Control Flight Recovery</item>
+        <item>EGPWS Pull Up Warning (IMC or at Night)</item>
+        <item>Single Engine Waveoff/Missed Approach</item>
+        <item>Low-Altitude Windshear</item>
+    </string-array>
+
+    <string-array name="airspeedLimits">
+        <item>Vmo/Vne Max dive/level flight \u2014 227 KIAS</item>
+        <item>Vmca Minimum controllable airspeed \u2014 86 KIAS</item>
+        <item>Vx Best angle of climb \u2014 102 KIAS</item>
+        <item>Vy Best rate of climb \u2014 108 KIAS</item>
+        <item>Vsse Minimum safe 1 engine inop \u2014 91 KIAS</item>
+        <item>Vxse Best angle of climb single engine \u2014 102 KIAS</item>
+        <item>Vyse Best rate of climb single engine \u2014 110 KIAS</item>
+        <item>Vfe Max flap extension/extended (full) \u2014 140 KIAS</item>
+        <item>Vfe Max flap extension/extended (appr) \u2014 174 KIAS</item>
+        <item>Vlr Max landing gear retraction \u2014 145 KIAS</item>
+        <item>Vle Max landing gear extension \u2014 155 KIAS</item>
+        <item>Va Maneuvering speed \u2014 153 KIAS</item>
+        <item>Vmcg Min controllable speed on ground \u2014 63 KIAS</item>
+        <item>Max range glide \u2014 130 KIAS</item>
+        <item>Max ensurance glide \u2014 102 KIAS</item>
+    </string-array>
+
+    <string-array name="electricalLimits">
+        <item>DC Generator \u2014 28.25 \u00B1 .8 VDC</item>
+        <item>Min battery voltage for APU charge \u2014 18 VDC</item>
+        <item>Min battery voltage for APU start \u2014 20 VDC</item>
+        <item>Min battery voltage for BATT start \u2014 22 VDC</item>
+        <item>Start \u2014 (40 sec, 60 sec) x2, then 40 sec on, 30 min off</item>
+    </string-array>
+
+    <string-array name="ittLimits">
+        <item>Normal operating range \u2014 400-790\u00B0C</item>
+        <item>Max allowable \u2014 790\u00B0C</item>
+        <item>Max continuous \u2014 790\u00B0C</item>
+        <item>Max reverse \u2014 790\u00B0C</item>
+        <item>Max acceleration (up to 2 sec) \u2014 850\u00B0C</item>
+        <item>Max low idle \u2014 685\u00B0C</item>
+        <item>Max cruising \u2014 740\u00B0C</item>
+        <item>Cruise climb \u2014 765\u00B0C</item>
+        <item>Start limit \u2014 925\u00B0C (cutoff) 1090\u00B0C (2 sec)</item>
+    </string-array>
+
+    <string-array name="torqueLimits">
+        <item>Normal operating range \u2014 400-1315 ft-lb</item>
+        <item>Max @ 1900 RPM \u2014 1520 ft-lb</item>
+        <item>Max @ 2200 RPM \u2014 1315 ft-lb</item>
+        <item>Max acceleration \u2014 2100 ft-lb</item>
+    </string-array>
+
+    <string-array name="turbineLimits">
+        <item>Normal operating range \u2014 50-101.5%</item>
+        <item>Low idle range \u2014 51-54%</item>
+        <item>Hi idle range \u2014 70-73%</item>
+        <item>Max reverse \u2014 86%</item>
+        <item>Max acceleration \u2014 102.6%</item>
+        <item>Max continuous \u2014 101.5%</item>
+    </string-array>
+
+    <string-array name="propLimits">
+        <item>Normal operating range \u2014 1800-2200 rpm</item>
+        <item>Max reverse \u2014 2100 rpm</item>
+        <item>Max during accel (2 sec)</item>
+    </string-array>
+
+    <string-array name="oilTempLimits">
+        <item>Normal operating range \u2014 10-99\u00B0C</item>
+        <item>Max oil temp \u2014 99\u00B0C</item>
+    </string-array>
+
+    <string-array name="oilPxLimits">
+        <item>Normal operating range \u2014 85-100 psi</item>
+        <item>Max oil pressure \u2014 100 psi</item>
+        <item>Min oil pressure \u2014 40 psi</item>
+    </string-array>
+
+    <string-array name="weightLimits">
+        <item>Max ramp weight \u2014 9710 lbs</item>
+        <item>Max takeoff weight \u2014 9650 lbs</item>
+        <item>Max landing weight \u2014 9168 lbs</item>
+    </string-array>
+
+    <string-array name="generalLimits">
+        <item>Pneumatic pressure norm operating range \u2014 12-20 psi</item>
+        <item>Max sink rate on landing \u2014 600 fpm</item>
+        <item>Max crosswind \u2014 20 knots</item>
+        <item>Max cabin pressure differential \u2014 4.7 psi</item>
+        <item>Gyro suction norm operating range \u2014 4.3-5.9 inHg</item>
+        <item>Min oxygen required for local/X-C flight \u2014 1000/1500 psi</item>
+        <item>Prop deice ammeter normal operation \u2014 14-18 amps</item>
+        <item>Normal TAS altitude range \u2014 2700 feet</item>
+    </string-array>
+
+    <string-array name="checklistsMenu">
+        <item>FTI Checklists</item>
+        <item>Regular Checklists</item>
+    </string-array>
+
+    <string-array name="ftiChecklists">
+        <item>Intro</item>
+        <item>Before Start</item>
+        <item>Start</item>
+        <item>After Start</item>
+        <item>Engine Run-up</item>
+        <item>Before Takeoff</item>
+        <item>Climb</item>
+        <item>Cruise</item>
+        <item>Descent</item>
+        <item>Approach</item>
+        <item>Landing</item>
+        <item>After Landing</item>
+        <item>Secure</item>
+    </string-array>
+
+    <string-array name="checklists">
+        <item>Preflight Inspection</item>
+        <item>Before Start</item>
+        <item>After Start</item>
+        <item>Engine Run-up</item>
+        <item>Before Takeoff</item>
+        <item>Climb</item>
+        <item>Cruise</item>
+        <item>Descent</item>
+        <item>Approach</item>
+        <item>Landing</item>
+        <item>After Landing</item>
+        <item>Secure</item>
+    </string-array>
+
+    <string-array name="ManeuversMain">
+        <item>Contacts</item>
+        <item>Basic Instruments</item>
+    </string-array>
+
+    <string-array name="contactManeuvers">
+        <item>Level Speed Change</item>
+        <item>Turn Pattern</item>
+        <item>Slow Flight</item>
+        <item>Approaches to Stall</item>
+        <item>SSE Waveoff at Altitude</item>
+        <item>Dynamic Engine Cut</item>
+        <item>Ditching</item>
+    </string-array>
+
+    <string-array name="biManeuvers">
+        <item>Unusual Attitude Recovery</item>
+        <item>Oscar Pattern</item>
+        <item>Bravo Pattern</item>
+        <item>Charlie Pattern</item>
+        <item>Yankee Pattern</item>
+    </string-array>
+
+
+</resources>

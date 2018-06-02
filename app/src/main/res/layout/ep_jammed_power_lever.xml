@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="motivationalapps.t_44c.emergency_procedures.JammedPowerLever">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/Title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="Jammed Power Lever"
+        android:textColor="@android:color/black"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="fill_horizontal"
+            android:padding="5dp"
+            android:textColor="@android:color/black"
+            android:textSize="15sp"
+            android:text="There have been occasions when power levers have jammed in the T-44 in flight, leaving the pilot with no capability to change the corresponding engine power setting. Should this occur, check all engine instruments and the nacelle for abnormal indications. If no abnormal secondary indications are detected, consideration should be given to keeping the engine running unless controllability is or becomes a factor. Land as soon as practicable. Prior to landing, the engine should be secured as follows:"/>
+
+
+        <TextView
+        android:id="@+id/step1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:padding="5sp"
+        android:text="\u271D*1. Condition lever (affected engine) - FUEL CUTOFF"
+        android:textColor="@color/memoryItems"
+        android:textSize="18sp"
+        android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/step2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:padding="5sp"
+            android:text="*2. Emergency Shutdown Checklist - Execute (PF)"
+            android:textColor="@color/memoryItems"
+            android:textSize="18sp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/warning1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/warning_square"
+            android:text="Warning"
+            android:textColor="@android:color/black"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/warning1info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="The landing gear warning system will not function if the power lever remains jammed forward of a position corresponding to 79 \u00B1 2 percent N1 rpm."
+            android:textColor="@android:color/black"
+            android:textSize="15sp" />
+    </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

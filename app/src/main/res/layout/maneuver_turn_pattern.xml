@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="motivationalapps.t_44c.Maneuvers.TurnPattern">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/Title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="Turn Pattern"
+                android:textColor="@android:color/black"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/info"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="fill_horizontal"
+                android:padding="5dp"
+                android:text="The turn pattern is a coordination maneuver designed to build basic piloting skills. Emphasis is on trim, scan, altitude control, and smoothness. Enter on an assigned heading and maintain 150 KIAS with props at 1900 RPM. The pattern consists of turns and reversals and commenced in either direction. Lead all turns by about 1/3 the Angle of Bank (AOB) when rolling out or commencing a reversal. The 30\u00B0 AOB turns may be omitted at the IP's discretion after initial introduction and initial practice of the maneuver.
+\nProcedures are as follows:
+\n\na.   30\u00B0 bank, 180\u00B0 turn.
+\n\nb.   30\u00B0 bank, 180\u00B0 reversal.
+\n\nc.   45\u00B0 bank, 360\u00B0 turn.
+\n\nd.   45\u00B0 bank, 360\u00B0 reversal."
+                android:textColor="@android:color/black"
+                android:textSize="15sp" />
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

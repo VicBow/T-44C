@@ -1,0 +1,1011 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="motivationalapps.t_44c.Fti_Checklists.FtiBeforeTakeoff">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/Title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="F105. Before Takeoff Checklist"
+                android:textColor="@android:color/black"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/info"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="fill_horizontal"
+                android:padding="5dp"
+                android:text="Pound (#) items constitute an abbreviated checklist used for aircrew making their second or subsequent takeoff during the same day.
+\n\nThe Before Takeoff Checklist is designed to check the remaining systems and configure the aircraft for takeoff."
+                android:textColor="@android:color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/step1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:padding="5sp"
+                android:text="1. AUTOPILOT/YAW DAMP -- \u0022CHECKED/DISENGAGED\u0022 (PF, PM)"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/info1a"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="fill_horizontal"
+                android:padding="5dp"
+                android:text="PF and PM perform the following checks:
+\n\na.\u0009\u0009PF engages the autopilot and presses the AP/YD disconnect button on the control wheel. Observe that the autopilot disengages and is accompanied by a warning horn and PFD indications. PF then ensure flight controls operate freely.
+\n\nb.\u0009\u0009PF engages the autopilot and directs the PM to press the AP/YD disconnect button on the control wheel. Observe that the autopilot disengages and is accompanied by a warning horn and PFD indication. PM then ensures flight controls operate freely.
+\n\nc.\u0009\u0009PF reengages the autopilot and disconnects with the autopilot bar. PF then ensures flight controls operate freely."
+                android:textColor="@android:color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/note1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Note"
+                android:textColor="@android:color/black"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/note1info"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="Do not check the autopilot while taxiing. Do not attempt to move the controls while the AP is engaged. Damage to the AP servos will result."
+                android:textColor="@android:color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/info1b"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="fill_horizontal"
+                android:padding="5dp"
+                android:text="d.\u0009\u0009Verify the AP is disengaged and autopilot bar in the down position. PF and PM press their respective FD button on the FGP to remove command bars from the PFD.
+\n\nNATOPS lists additional checks, which may be performed. Additional checks are not desired on student training flights and will not normally be performed."
+                android:textColor="@android:color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/warning1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/warning_square"
+                android:text="Warning"
+                android:textColor="@android:color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/warning1info"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="Engagement of the yaw damp during takeoff or landing may result in severe directional control problems."
+                android:textColor="@android:color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/step2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:padding="5sp"
+                android:text="2. ELECTRIC TRIM -- \u0022CHECKED\u0022 (PF, PM)"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/info1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="fill_horizontal"
+                android:padding="5dp"
+                android:text="PF and PM perform the following check:
+\n\na.\u0009\u0009Split switch (on yoke) - Individually move each half of split switch and note the elevator trim wheel does not move. Do not rush the check.
+\n\nb.\u0009\u0009Split switch - Move both halves of split switch and note smooth movement of the trim wheel. Perform check in both directions.
+While trim wheel is moving during the second half of the check, depress and hold the red AP/YD button (to the second detent) on the yoke to disengage the electric trim.
+Note the trim wheel stops and a red TRIM annunciator illuminates on the PFD. Release the AP/YD button, and note trim re-engages before releasing the split switch.
+\n\nc.\u0009\u0009PM repeats Steps a. and b."
+                android:textColor="@android:color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/note2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Note"
+                android:textColor="@android:color/black"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/note2info"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="The only way to permanently disengage the electric trim is to pull the PITCH TRIM circuit breaker on the RS subpanel."
+                android:textColor="@android:color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/step3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:padding="5sp"
+                android:text="3. TRIM TABS -- \u0022SET\u0022 (PF, PM)"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/info3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="fill_horizontal"
+                android:padding="5dp"
+                android:text="PF normally sets the following: Aileron - 0, Rudder - 0, Elevator - 2 up"
+                android:textColor="@android:color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/note3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Note"
+                android:textColor="@android:color/black"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/note3info"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="At high gross weights and aft Center of Gravity (CG), consideration should be given to utilizing less nose up trim for takeoff."
+                android:textColor="@android:color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/step4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:padding="5sp"
+                android:text="4. CONTROLS -- \u0022CHECKED\u0022 (PF, PM)"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/info4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="fill_horizontal"
+                android:padding="5dp"
+                android:text="Check as previously described, if not already checked. A second check is unnecessary."
+                android:textColor="@android:color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/step5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:padding="5sp"
+                android:text="5. FLAPS -- \u0022CHECKED, UP\u0022 (PF, PM)"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/info5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="fill_horizontal"
+                android:padding="5dp"
+                android:text="Check as previously described, if not already checked. Visually confirm the flap handle, flap position indicator, and flaps are all in the UP position."
+                android:textColor="@android:color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/step6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:padding="5sp"
+                android:text="6. PROPS -- \u0022FULL FORWARD\u0022 (PF)"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/info6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="fill_horizontal"
+                android:padding="5dp"
+                android:text="PF ensures prop levers are full forward."
+                android:textColor="@android:color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/step7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:padding="5sp"
+                android:text="7. PROP SYNC -- \u0022OFF\u0022 (PF)"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/info7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="fill_horizontal"
+                android:padding="5dp"
+                android:text="PF ensures prop sync switch is off."
+                android:textColor="@android:color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/step8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:padding="5sp"
+                android:text="8. AUTOFEATHER -- \u0022ARMED\u0022 (LS)"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/info8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="fill_horizontal"
+                android:padding="5dp"
+                android:text="LS selects autofeather ARMED."
+                android:textColor="@android:color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/step9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:padding="5sp"
+                android:text="9. ANTI-ICE/DEICE -- \u0022CHECKED AS REQUIRED\u0022 (PF, PM)"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/info9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="fill_horizontal"
+                android:padding="5dp"
+                android:text="Full anti-ice/deice checks are practiced during cockpit procedures trainers (CPTs) and must be memorized. A minimum of one full anti-ice/deice check is required prior to C4203.
+If flight into icing conditions is anticipated and/or on the first leg of a cross-country flight, full anti-ice/deice checks must be completed. Check pitot heat on every flight.
+Monitor load meter to ensure each system is operational and minimum N1 is maintained for the load condition. Conduct anti-ice/deice checks IAW NATOPS Chapter 19.
+If pitot heat is the only item checked, PF and PM respond, \u0022Pitot heat checked.\u0022"
+                android:textColor="@android:color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/step10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:padding="5sp"
+                android:text="10. STALL WARNING -- \u0022CHECKED\u0022 (LS)"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/info10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="fill_horizontal"
+                android:padding="5dp"
+                android:text="LS moves stall warning test switch to test position and verifies stall-warning light illuminates and stall-warning horn sounds."
+                android:textColor="@android:color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/step11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:padding="5sp"
+                android:text="11. RADAR -- \u0022CHECKED/STANDBY\u0022 (PF, PM)"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/info11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="fill_horizontal"
+                android:padding="5dp"
+                android:text="a.\u0009\u0009Ensure both PFDs are in 120\u00B0 format using R1 soft key.
+\n\nb.\u0009\u0009Ensure RLSK on PFD shows RDR in blue/on.
+\n\nc.\u0009\u0009PF Selects Radar on the Display Control Panel (DCP), confirm system is in STBY.
+\n\nd.\u0009\u0009Ensure STAB is ON.
+\n\ne.\u0009\u0009Ensure GAIN is in NORM.
+\n\nf.\u0009\u0009Ensure SECTOR SCAN is OFF.
+\n\ng.\u0009\u0009Ensure TARGET is OFF.
+\n\nh.\u0009\u0009Using the MENU ADVANCE knob, PF selects TST on the display.
+\n\ni.\u0009\u0009Observe two sweeps of test pattern on both PFDs. Each PFD receives pattern refresh every other sweep. The test pattern may take a few moments to show.
+\n\nj.\u0009\u0009PF selects STBY."
+                android:textColor="@android:color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/step12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:padding="5sp"
+                android:text="12. FLIGHT INSTRUMENTS -- \u0022CHECKED/SET\u0022 (PF, PM)"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/info12a"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="fill_horizontal"
+                android:padding="5dp"
+                android:text="PF and PM check flight instruments for proper indications:
+\n\na.\u0009\u0009Ensure no comparator/warning flags are visible on either PFD.
+\n\nb.\u0009\u0009Ensure V speeds are set as follows Vt-102, V2-102, Vr-91, V1-91, Vref-110. Select Vt, Vr, and Vref for display.
+\n\nc.\u0009\u0009Ensure ESIS indications (heading, attitude, VSI, slip/skid) match PFD indications."
+                android:textColor="@android:color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/note12a"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Note"
+                android:textColor="@android:color/black"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/note12ainfo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="ESIS airspeed will indicate 40 instead of zero while stationary."
+                android:textColor="@android:color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/info12b"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="fill_horizontal"
+                android:padding="5dp"
+                android:text="d.\u0009\u0009Set ESIS backlighting as desired.
+\n\nA typical response would be:"
+                android:textColor="@android:color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/info12c"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="fill_horizontal"
+                android:padding="5dp"
+                android:text="(PF) \u0022My heading 130, ESIS heading 130, no comparators or warning flags Vt, Vr and Vref selected.\u0022 PM reports \u0022My heading 130, no comparators or flags\u0022 and any discrepancies."
+                android:textColor="@android:color/black"
+                android:textSize="15sp"
+                android:textStyle="italic"/>
+
+            <TextView
+                android:id="@+id/note12b"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Note"
+                android:textColor="@android:color/black"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/note12binfo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="V1, Vr, and V2 are automatically removed from the airspeed tape at 150 KIAS."
+                android:textColor="@android:color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/step13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:padding="5sp"
+                android:text="13. ALTIMETERS -- \u0022CHECKED/SET\u0022 (PF, PM)"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/info13a"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="fill_horizontal"
+                android:padding="5dp"
+                android:text="PF and PM perform the following checks:
+\n\na.\u0009\u0009Barometric Altimeter (BA):
+\n\u0009\u0009Check the current altimeter setting is selected with no comparators or warning flags visible. Ensure the barometric altimeter indicates within \u00B175 feet of aiport elevation and compare LS, RS, and ESIS altimeter readings.
+\n\u0009\u0009Set RA minimums to 500 feet for local day VFR training sorties or BA/RA minimums, as appropriate, for IFR training sorties. For normal operations, PF should display BA minimums and PM display RA minimums for back-up."
+                android:textColor="@android:color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/note13a"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Note"
+                android:textColor="@android:color/black"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/note13ainfo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="See the airport diagram for specific field elevations."
+                android:textColor="@android:color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/info13b"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="fill_horizontal"
+                android:padding="5dp"
+                android:text="b.\u0009\u0009Radar Altimeter (RA):
+\n\u0009\u0009Depress radio altimeter test button and verify proper indications. Both altimeters should show a rise of 50 feet and the green RAD ALT display should show 50\u00B15 feet."
+                android:textColor="@android:color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/note13b"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Note"
+                android:textColor="@android:color/black"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/note13binfo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="Do not confuse HAT with HAA. HAT refers to Straight-in approach minimums (precision or non-precision). HAA refers to circling approach minimums."
+                android:textColor="@android:color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/info13c"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="fill_horizontal"
+                android:padding="5dp"
+                android:text="A typical response would be:"
+                android:textColor="@android:color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/info13d"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="fill_horizontal"
+                android:padding="5dp"
+                android:text="(PF) \u0022PFD set 30.12 reading 30 feet, ESIS set 30.12 reading 30 feet, BARO set 520/RADALT set 500, I'm up BARO and RADALT checks.\u0022"
+                android:textColor="@android:color/black"
+                android:textSize="15sp"
+                android:textStyle="italic"/>
+
+            <TextView
+                android:id="@+id/info13e"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="fill_horizontal"
+                android:padding="5dp"
+                android:text="(PM) \u0022Set 30.12, reading 30 feet, RADALT selected.\u0022 and reports any discrepancies."
+                android:textColor="@android:color/black"
+                android:textSize="15sp"
+                android:textStyle="italic"/>
+
+            <TextView
+                android:id="@+id/step14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:padding="5sp"
+                android:text="14. FMS -- \u0022CHECKED/SET\u0022 (PF, PM)"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/info14a"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="fill_horizontal"
+                android:padding="5dp"
+                android:text="PF will tell PM to \u0022Hold the checklist,\u0022 and contact clearance delivery in accordance with the Typical Briefs and Voice Procedures Appendix to copy the IFR clearance if appropriate."
+                android:textColor="@android:color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/note14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Note"
+                android:textColor="@android:color/black"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/note14info"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="Before going heads down to load FMS data, the controls should be passed to the PM."
+                android:textColor="@android:color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/info14b"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="fill_horizontal"
+                android:padding="5dp"
+                android:text="Typical response would be:"
+                android:textColor="@android:color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/info14c"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="fill_horizontal"
+                android:padding="5dp"
+                android:text="\u0022Sir/Ma'am, you have the controls. I will be heads down.\u0022"
+                android:textColor="@android:color/black"
+                android:textSize="15sp"
+                android:textStyle="italic"/>
+
+            <TextView
+                android:id="@+id/info14d"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="fill_horizontal"
+                android:padding="5dp"
+                android:text="Using the clearance information, or typical VFR configuration, set up FMS for flight as follows:
+\n\na.\u0009\u0009Status - Verify FMS database is current and ensure UTC time and date correct.
+\n\nb.\u0009\u0009Pos Init - MANDATORY (gives FMS permission to navigate) \n*Initialize the position with the most accurate position data available.
+(GPS is usually most accurate and latitude and longitude position data is available on the POS INIT 2/2 page.)
+\n\nc.\u0009\u0009Flt PLN - Enter departure and destination airports and flight planned route. (Technique - push EXEC after each page)
+\n\nd.\u0009\u0009Dep/Arr - Enter departure as required.
+\n\ne.\u0009\u0009Legs - Verify waypoints and address discontinuities.
+\n\nf.\u0009\u0009Check RAIM - IDX button then GPS CTL. \nEnsure GPS sensor is enabled. \nDeselect satellites listed in NOTAMS. \nEnsure arrival airport is accurate and enter ETA to ensure RAIM availability."
+                android:textColor="@android:color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/step15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:padding="5sp"
+                android:text="15. RADIOS/NAVAIDS -- \u0022CHECKED,SET\u0022 (PF, PM)"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/note15a"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Note"
+                android:textColor="@android:color/black"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/note15ainfo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="Do not check the active radio while taxiing."
+                android:textColor="@android:color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/info15a"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="fill_horizontal"
+                android:padding="5dp"
+                android:text="a.\u0009\u0009V/UHF \n\nSet desired display intensity (Press ENT then 8 for dim or 9 for bright.) \nCheck squelch on.
+\nVerify function switch TR+G (selected frequency + Guard). \nSelect desired frequency or preset frequency."
+                android:textColor="@android:color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/note15b"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Note"
+                android:textColor="@android:color/black"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/note15binfo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="Typical display reading should be P3, U, up arrow, AM with \u0022GO\u0022 light illuminated (if using CH 3 ground at NGP)"
+                android:textColor="@android:color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/info15b"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="fill_horizontal"
+                android:padding="5dp"
+                android:text="b.\u0009\u0009VHF
+\n\nSet desired display intensity on RTU.\nDepress and reset EMER 121.5 button and ensure button is illuminated and frequency displayed RTU active window, side tone will sound.
+\nSet appropriate frequency in preset and active.
+\n\nc.\u0009\u0009NAV 1 and NAV 2
+\n\nSet appropriate frequency in preset and active using RTU. If desired, go to menu by depressing L2 soft key twice and verify RMT TUNE is on. Depress L3 (Preset page) soft key and select
+tune mode to manual or preset. Depress L4 twice to return to main screen.
+\n\nTune and identify all NAVAIDS with appropriate frequencies. Your Instrument Approach Plate for the airport should be open for reference and properly secured with an approach plate clip or other device.
+\n\nRepeat set for NAV 2 after depressing 1/2 hard key on RTU.
+\n\nd.\u0009\u0009ADF \n\nSet appropriate frequency in active window on RTU. If desired, go to menu by depressing R3 soft key twice and verify MODE is in ADF and BFO is in OFF.
+Depress L3 (Preset page) soft key and select tune mode to manual or preset. Depress L4 twice to return to main screen.
+\n\ne.\u0009\u0009Transponder (ATC) \n\nSet appropriate code in active window. Go to menu by depressing L3 soft key twice and verify ALT is ON. Depress L4 to return to main screen.
+\n\nf.\u0009\u0009TACAN \n\nVerify ON/OFF switch is ON.\nVerify A/A (air to air) to A/G (air to ground) switch is A/G position.\nTune appropriate frequency using TACAN control head. No test is required."
+                android:textColor="@android:color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/note15c"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Note"
+                android:textColor="@android:color/black"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/note15cinfo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="The vast majority of TACAN stations are in the X band. Only a few sites, such as Vandenberg AFB, utilize Y. Also DME is only available from TAC when selected as the #1 NAV source.
+TACAN identifications are broadcast approzimately once each 37.5 seconds."
+                android:textColor="@android:color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/info15c"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="fill_horizontal"
+                android:padding="5dp"
+                android:text="Identify Morse code identifier.\nVerify ID and adjust volume as required."
+                android:textColor="@android:color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/step16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:padding="5sp"
+                android:text="16. PFDs/FGP -- \u0022SET\u0022 (PF, PM)"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/info16a"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="fill_horizontal"
+                android:padding="5dp"
+                android:text="a.\u0009\u0009Ensure PFD is in 360\u00B0 format using R1 soft key.
+\n\nb.\u0009\u0009Select appropriate NAV source to CDI by:\n\nSelect NAV/BRG hard key on DCP.\n\nSelect desired NAV source to bearing source 1 (CRP VORTAC in VOR 1 for Contact flights).
+\n\nSelect same source to CDI using L1 soft key.\n\nSelect desired NAV source to preset (CRP VORTAC in VOR 2 for Contract flights).
+\n\nc.\u0009\u0009PF and PM set CDI as appropriate using CRS1/2 knob on FGP. Normally set runway heading for emergency return to the departure runway; however, other appropriate settings
+could be 130\u00B0 if outbound for Central/South Seagull, 100\u00B0 for north Seagull, the outbound radial to intercept or the final approach course for the approach in use.
+\n\nd.\u0009\u0009Select 150/170 as appropriate using SPEED knob on FGP.
+\n\ne.\u0009\u0009Set desired altitude using ALT select knob on FGP. Typical setting would be 2500 for VFR departure (setting 500 results in aural/visual warning for \u0022less than 1000 to go\u0022)
+or 1600 for IFR departure from KNGP.
+\n\nf.\u0009\u0009PF sets heading bug as desired as long as it provides useful information (i.e. Takeoff winds, initial heading, runway heading, etc.). See the FTI for further guidance.
+\n\ng.\u0009\u0009PF sets a course for an emergency return in the ESIS. This is done by pressing the MENU button on the ESIS, then using the adjustment knob to scroll to \u0022SET CRS,\u0022
+depressing the adjustment knob to select the SET CRS option, spinning in the course, and then depressing the adjustment knob again. Also, ensure the ESIS is displaying NAV 1 information; if
+it is not displaying NAVAID information, enter the menu again, scroll to \u0022NAV ON\u0022 then depress the knob.
+\n\nTypical (PF) response:"
+                android:textColor="@android:color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/info16b"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="fill_horizontal"
+                android:padding="5dp"
+                android:text="\u0022I have VOR 1 as Primary and FMS in the preset. My number one needle is selected VOR 1, number two needle is selected VOR 2. Traffic selected,
+Radar is deselected, and I'm up 360 format. My course is set 130, heading bug is set 105, speed is set 170, altitude is 2500 for course rules departure, and ESIS is set 129 for the emergency return.\u0022
+\n\n(PM) \u0022My primary is VOR 1, FMS preset, number one needle is selected VOR 1, number 2 is selected VOR 2, traffic overlay, 360 format and course set 130.\u0022."
+                android:textColor="@android:color/black"
+                android:textSize="15sp"
+                android:textStyle="italic"/>
+
+            <TextView
+                android:id="@+id/info16c"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="fill_horizontal"
+                android:padding="5dp"
+                android:text="The response above is not required; however, it is a good technique to ensure proper setup."
+                android:textColor="@android:color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/step17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:padding="5sp"
+                android:text="17. PRESSURIZATION -- \u0022SET\u0022 (PF)"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/info17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="fill_horizontal"
+                android:padding="5dp"
+                android:text="PF sets:
+\n\na.\u0009\u0009Rate control knob to midpoint of travel (approximately one o'clock position).
+\n\nb.\u0009\u0009Cabin controller to field elevation plus the correction factor per NATOPS Figure 2-23.
+\n\nc.\u0009\u0009Select PRESS on the pressurization dump switch."
+                android:textColor="@android:color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/step18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:padding="5sp"
+                android:text="18. BLEED AIR -- \u0022AS REQUIRED\u0022 (RS)"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/info18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="fill_horizontal"
+                android:padding="5dp"
+                android:text="PF directs PM to select desired position."
+                android:textColor="@android:color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/step19"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:padding="5sp"
+                android:text="19. CREW -- \u0022BRIEFED\u0022 (PF)"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/info19"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="fill_horizontal"
+                android:padding="5dp"
+                android:text="Brief the PM in accordance with the Typical Briefs and Voice Procedures Appendix, as appropriate. At a minimum, brief the PM on the takeoff, instrument departure
+procedures, and intended type of recovery if an emergency is encountered after takeoff. At the completion of the brief, PF asks \u0022Any questions?\u0022 PF answers any questions, and then replies, \u0022Briefed, hold the checklist.\u0022
+\n\nPM calls for further taxi. Approaching the hold-short, switch to channel 4 and request takeoff clearance in accordance with the Typical Briefs and Voice Procedures Appendix.
+If there is sufficient time prior to being cleared onto the runway, the PF is encouraged to check total and nacelle fuel quantities in the most expeditious manner to minimize takeoff delays.
+Once cleared for \u0022takeoff,\u0022 or \u0022line up and wait,\u0022 clear the downwind, base, final, and the runway for traffic. Then direct the PM to \u0022continue\u0022 the Before Takeoff
+Checklist while crossing the hold short line and taxiing into position for takeoff on the runway centerline with minimal usable runway behind the aircraft."
+                android:textColor="@android:color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/step20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:padding="5sp"
+                android:text="20. ANTI-ICE/DEICE -- \u0022SET\u0022 (LS)"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/info20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="fill_horizontal"
+                android:padding="5dp"
+                android:text="LS turns on anti-ice/deice equipment IAW NATOPS Chapter 19. Normally, only the left and right pitot heat is necessary."
+                android:textColor="@android:color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/step21"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:padding="5sp"
+                android:text="21. LIGHTS -- \u0022SET\u0022 (LS)"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/info21"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="fill_horizontal"
+                android:padding="5dp"
+                android:text="LS places the following switches on:
+\n\na.\u0009\u0009LEFT and RIGHT LANDING
+\n\nb.\u0009\u0009TAXI
+\n\nc.\u0009\u0009NAV (night or when visibility is less than 3 statute miles)
+\n\nd.\u0009\u0009ICE (night only)
+\n\ne.\u0009\u0009BEACON (already on)
+\n\nf.\u0009\u0009STROBE (on once taking the active runway for departure and off after exiting all active runways upon landing)"
+                android:textColor="@android:color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/step22"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:padding="5sp"
+                android:text="22. TRANSPONDER -- \u0022SET\u0022 (RS)"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/info22"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="fill_horizontal"
+                android:padding="5dp"
+                android:text="RS switches XPDR switch below RTU from STBY to ON."
+                android:textColor="@android:color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/step23"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:padding="5sp"
+                android:text="23. CONDITION LEVERS -- \u0022HIGH IDLE\u0022 (PF)"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/info23"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="fill_horizontal"
+                android:padding="5dp"
+                android:text="PF places both condition levers full forward and verifies 70-73% N1 with power levers at idle."
+                android:textColor="@android:color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/step24"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:padding="5sp"
+                android:text="24. AUTOIGNITION -- \u0022ARMED\u0022 (PM)"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/info24"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="fill_horizontal"
+                android:padding="5dp"
+                android:text="PM reports \u0022Takeoff Checklist complete.\u0022 When cleared for takeoff, set 70-80% N1, check left wing/nacelle for fuel caps in place, panels secure, and no fluid leaks.
+Check PFD and ESIS headings aligned with the runway, no abnormal flags, and engine instruments/props stabilized. Check total/nacelle fuel quantities if not already checked.
+When satisfied there are no malfunctions and ready for takeoff, report \u0022checked left.\u0022 The RS will do the same for the right wing/instruments and report \u0022checked right.\u0022
+Commence takeoff roll IAW the FTI."
+                android:textColor="@android:color/black"
+                android:textSize="15sp" />
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

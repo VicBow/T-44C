@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="motivationalapps.t_44c.Maneuvers.BiUnusualAttitude">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/Title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="Unusual Attitude Recovery"
+                android:textColor="@android:color/black"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/info"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="fill_horizontal"
+                android:padding="5dp"
+                android:text="During IMC flight, there is the possibility that scan breakdown, vertigo, or attitude indicator failure may result in an unusual attitude.
+In an unusual attitude, the attitude indicator may be of little assistance if it tumbles or becomes difficult to interpret.
+Knowing the factors contributing to vertigo can help us avoid it (refer to NATOPS IFM Ch.7).
+Practical problems simulate these conditions and are practiced to acquire the correct recovery techniques.
+The first step in the recovery is to recognize the unusual attitude, confirm an unusual attitude exists by comparing other control and performance instruments,
+and recover using the techniques below.
+\n\na.   Recovery: Nose Low.
+\n\n     i.    Level the wings by referencing the attitude indicator.
+\n\n     ii.   Raise the nose to the level flight attitude on the attitude indicator and maintain level flight by referencing the altimeter, vertical speed, and airspeed.
+\n\n     iii.  Regain 150 KIAS while maintaining straight and level flight by setting normal cruise power 600-700 ft-lbs, referencing attitude and altitude.
+\n\n     iv.   When the aircraft is stabilized in straight and level flight, return first to base altitude, and then base heading.
+\n\nb.   Recovery: Nose High.
+\n\n     i.    Leaving bank angle in (within reason) aids in recovery. As the nose approaches the horizon, level the wings and ensure a level flight attitude.
+\n\n     ii.   Remainder of recovery same as nose low."
+                android:textColor="@android:color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/note1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Note"
+                android:textColor="@android:color/black"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/note1info"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="Use power as necessary throughout the recovery, however, if at any time the airspeed exceeds 200 KIAS, reduce power.
+If at any time airspeed drops below 100 KIAS, smoothly advance power to 800-900 ft-lbs."
+                android:textColor="@android:color/black"
+                android:textSize="15sp" />
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

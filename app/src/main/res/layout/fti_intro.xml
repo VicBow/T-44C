@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="motivationalapps.t_44c.Fti_Checklists.FtiIntro">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/Title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="F100. Introduction"
+                android:textColor="@android:color/black"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/info"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="fill_horizontal"
+                android:padding="5dp"
+                android:text="The pilot flying (PF) will initiate and is responsible for the proper execution of all checklists. The pilot monitoring (PM)
+ensures all checklists are completed when appropriate. The “challenge and reply” method is
+utilized for normal checklists, whereby the PM challenges
+each item of the checklist and the appropriate crewmember (PF, PM, Left Seat Pilot [LS], Right Seat Pilot [RS], or OBS) performs the
+required action and responds with the exact reply per the checklist card. DO NOT repeat the
+challenge, only the reply. During emergencies, the “challenge-reply-reply” method is utilized.
+The PM will read the challenge and the reply for non-memory items. The appropriate
+crewmember will then complete the required action and respond with the reply. To facilitate
+good CRM, students may add “left/right” to the response but this is not required and does not
+detract from standardization. "
+                android:textColor="@android:color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/info2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="fill_horizontal"
+                android:padding="5dp"
+                android:text="If a particular checklist item is required to be performed by the PM, he/she will read the
+challenge, complete the action, then reply. When the response is listed as “as required”, the
+crewmember will respond by stating the present operating status of the system. Some checklist
+items performed by the PM may require direction as to the desired action. If there is a desire to
+delay completion of a checklist, direct the PM to “Hold the checklist.” When ready to continue
+the checklist, direct the PM to “Continue the checklist.” The PM will report the completion of all
+checklists. The instructor must ensure the student verbalizes the correct responses to all
+checklist items. The Landing Checklist is never held. "
+                android:textColor="@android:color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/info3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="fill_horizontal"
+                android:padding="5dp"
+                android:text="This Appendix is only a training aid to augment NATOPS and must be read in conjunction with NATOPS. All non-memory item checklists will be referenced during performance to include the landing checklist. Aircrew should not touch the screens of the FMS, ESIS, MFD, or PFD at any time."
+                android:textColor="@android:color/black"
+                android:textSize="15sp" />
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

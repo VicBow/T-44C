@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="motivationalapps.t_44c.Fti_Checklists.FtiEngineRunup">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/Title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="F104. Engine Runup Checklist"
+                android:textColor="@android:color/black"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/info"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="fill_horizontal"
+                android:padding="5dp"
+                android:text="Pound (#) items constitute an abbreviated checklist that may be utilized by an aircrew making their second or subsequent takeoff during the same day operations.
+\n\nThe engine runup checks operation of essential systems, which cannot be checked prior to start or at idle."
+                android:textColor="@android:color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/step1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:padding="5sp"
+                android:text="1. PARKING BRAKE -- \u0022SET\u0022 (LS)"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/info1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="fill_horizontal"
+                android:padding="5dp"
+                android:text="Brief the PM to \u0022Monitor for movement during the engine runup.\u0022 LS ensures brake handle pulled out fully and brakes pumped firm. PF will keep both feet on the brakes for the entire Runup Checklist.
+PM will notify the PF if movement is detected and will immediately depress the brakes if any movement is noted."
+                android:textColor="@android:color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/step2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:padding="5sp"
+                android:text="2. ENGINE INSTRUMENTS -- \u0022CHECKED\u0022 (LS)"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/info2a"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="fill_horizontal"
+                android:padding="5dp"
+                android:text="LS ensures both power levers are at IDLE and condition levers are at LOW IDLE."
+                android:textColor="@android:color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/note2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Note"
+                android:textColor="@android:color/black"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/note2info"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="Whenever moving the condition levers to LOW IDLE, pinch the levers together and then move the levers very slowly. If a LOW IDLE stop is weak, or a lever is moved rapidly, flameout may result.
+ Should a flameout occur, DO NOT move the condition lever back to LOW IDLE; bring it fully into FUEL CUTOFF. After notifying Ground, the engine may be restarted using the appropriate checklist."
+                android:textColor="@android:color/black"
+                android:textSize="15sp" />
+            <TextView
+                android:id="@+id/info2b"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="fill_horizontal"
+                android:padding="5dp"
+                android:text="LS checks all engine instruments for normal indications:
+\n\na.\u0009\u0009ITT - 685\u00B0C maximum
+\n\nb.\u0009\u0009Torque - 100-200 ft-lbs
+\n\nc.\u0009\u0009Prop RPM - 900-1100 RPM
+\n\nd.\u0009\u0009N1 - 51-54%
+\n\ne.\u0009\u0009Fuel flow - 100 lbs/hr (approximately)
+\n\nf.\u0009\u0009Oil Temp - 10-99\u00B0C
+\n\ng.\u0009\u0009Oil press - 40-100 PSI"
+                android:textColor="@android:color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/step3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:padding="5sp"
+                android:text="3. SUCTION AND PNEUMATIC PRESSURE -- \u0022CHECKED\u0022 (LS)"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/info3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="fill_horizontal"
+                android:padding="5dp"
+                android:text="Power levers must be set to at least 70% N1. \n\nLS ensures suction 4.3-5.9 inches Hg (5.1\u00B10.8) and pneumatic pressure 12-20 PSI (16\u00B14)."
+                android:textColor="@android:color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/step4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:padding="5sp"
+                android:text="4. OVERSPEED GOVERNORS -- \u0022CHECKED\u0022 (LS)"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/info4a"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="fill_horizontal"
+                android:padding="5dp"
+                android:text="LS performs the following checks:
+\n\na.\u0009\u0009Prop levers - full forward
+\n\nb.\u0009\u0009Power levers - Set prop RPM less than 1900 RPM
+\n\nc.\u0009\u0009PROP GOV TEST switch - TEST (up position)"
+                android:textColor="@android:color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/note4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Note"
+                android:textColor="@android:color/black"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/note4info"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="Maintain a firm grip on the switch. DO NOT release the switch while the test is bring performed. An abrupt surge in prop rpm may result."
+                android:textColor="@android:color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/info4b"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="fill_horizontal"
+                android:padding="5dp"
+                android:text="\n\nd.\u0009\u0009Power levers - Advance until prop RPM stops increasing (1900-2100 RPM). ITT and Torque should continue to increase while prop RPM remains stabilized. Never allow prop RPM to exceed 2200 RPM.
+\n\ne.\u0009\u0009Power levers - Slowly retard prop RPM to 1900 RPM
+\n\nf.\u0009\u0009PROP GOV TEST switch - Release"
+                android:textColor="@android:color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/step5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:padding="5sp"
+                android:text="5. PRIMARY GOVERNORS -- \u0022CHECKED\u0022 (LS)"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/info5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="fill_horizontal"
+                android:padding="5dp"
+                android:text="With prop RPM still set at 1900 RPM, LS performs the following checks:
+\n\na.\u0009\u0009Prop levers - Move both aft. Stop when prop levers reach the detent. This will be felt as increased resistance. Be careful not to allow prop levers to enter into the FEATHER position. If FEATHER is inadvertently selected, bring the props forward immediately.
+\n\nb.\u0009\u0009Prop RPM - Stabilized between 1600-1800 RPM
+\n\nc.\u0009\u0009Prop levers - Slowly full forward
+\n\nd.\u0009\u0009Prop RPM - Returns to approximately 1900 RPM"
+                android:textColor="@android:color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/step6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:padding="5sp"
+                android:text="6. AUTOFEATHER/AUTOIGNITION -- \u0022CHECKED/OFF\u0022 (LS)"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/info6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="fill_horizontal"
+                android:padding="5dp"
+                android:text="LS performs the following checks:
+\n\na.\u0009\u0009Power levers - set approximately 500 ft-lb torque
+\n\nb.\u0009\u0009ENG AUTO IGN SWITCHES (2) - ON. Observe LH and RH AUTO IGNITION ARMED annunciator lights (green) illuminated.
+\n\nc.\u0009\u0009AUTOFEATHER switch - HOLD TO TEST (down position); observe (2) green AUTOFEATHER ARMED annunciator lights illumintated. If lights do not come on, advance the power levers slightly.
+\n\nd.\u0009\u0009Left power lever - Retard slowly. As torque reaches 410 ±50 ft-lbs, check RH AUTOFEATHER ARMED annunciator light out, LH AUTO IGNITION ARMED
+annunciator light out and LH IGN IND annunciator light (amber) illuminated. At 260±50 ft-lbs check LH AUTOFEATHER ARMED annunciator light flashing. This indicates the prop is feathering.
+After prop RPM decreases to 800 RPM, advance left power lever to 500 ft-lbs torque. Note both the AUTO FEATHER ARMED annunciator lights and AUTO IGNITION ARMED lights are illuminated (four green lights).
+\n\ne.\u0009\u0009Right power lever - Retard slowly. As torque reaches 410 ±50 ft-lbs, check LH AUTOFEATHER ARMED annunciator light out, RH AUTO IGNITION ARMED
+annunciator light out and RH IGN IND annunciator light illuminated. At 260±50 ft-lbs check RH AUTOFEATHER ARMED annunciator light flashing. This indicates the prop is feathering.
+After prop RPM decreases to 800 RPM, retard both power levers to idle
+\n\nf.\u0009\u0009AUTOFEATHER TEST switch - Release after noting right prop feathering cycle terminated and prop RPM indicates 900-1100 RPM
+\n\ng.\u0009\u0009ENG AUTO IGN switches(2) - OFF. Ensure both IGN IND annunciator lights out."
+                android:textColor="@android:color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/step7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:padding="5sp"
+                android:text="7. MANUAL FEATHER -- \u0022CHECKED\u0022 (LS)"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/info7a"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="fill_horizontal"
+                android:padding="5dp"
+                android:text="LS performs the following checks:
+\n\na.\u0009\u0009Power levers - IDLE, prop RPM stabilized. (Power must be at idle).
+\n\nb.\u0009\u0009Prop levers - FEATHER. Simultaneously pull both prop levers firmly aft, past the detent, to the stops.
+\n\nc.\u0009\u0009Prop RPM - Note prop RPM decrease as props feather.
+\n\nd.\u0009\u0009Prop levers - full forward after prop RPM decreases below 800 RPM.
+\n\ne.\u0009\u0009Prop RPM - Note prop RPM returns to 900-1100 RPM."
+                android:textColor="@android:color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/note7a"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Note"
+                android:textColor="@android:color/black"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/note7ainfo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="If propeller RPM does not read between 900 and 1,100 rpm with the power levers at idle and the condition levers at low idle, perform a low pitch torque
+check (check flight item 19 in paragraph 10.6 of the NATOPS) to ensure propeller flight idle stops are correctly adjusted."
+                android:textColor="@android:color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/info7b"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="fill_horizontal"
+                android:padding="5dp"
+                android:text="PM reports \u0022Engine Runup Checklist Complete.\u0022"
+                android:textColor="@android:color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/note7b"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Note"
+                android:textColor="@android:color/black"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/note7binfo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="After the Engine Runup Checklist is complete, the PF shall reset N1 via the condition levers as appropriate per NATOPS Figure 4-2."
+                android:textColor="@android:color/black"
+                android:textSize="15sp" />
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="motivationalapps.t_44c"
+    android:versionCode="4"
+    android:versionName="2.1">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/t442"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/t442"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="motivationalapps.t_44c.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="motivationalapps.t_44c.EmergencyProcedures" />
+        <activity android:name="motivationalapps.t_44c.RegularChecklists" />
+        <activity android:name="motivationalapps.t_44c.ManeuversMenu" />
+        <activity android:name="motivationalapps.t_44c.Checklists.BeforeStart" />
+        <activity android:name="motivationalapps.t_44c.ChecklistMainMenu" />
+        <activity
+            android:name="motivationalapps.t_44c.FtiChecklists"
+            android:label="@string/title_activity_fti_checklists"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name="motivationalapps.t_44c.emergency_procedures.AbnormalStart" />
+        <activity android:name="motivationalapps.t_44c.emergency_procedures.EmergencyShutdownOnDeck" />
+        <activity android:name="motivationalapps.t_44c.emergency_procedures.AbortingTakeoff" />
+        <activity android:name="motivationalapps.t_44c.emergency_procedures.EngineFailureAfterTakeoff" />
+        <activity android:name="motivationalapps.t_44c.emergency_procedures.EmergencyShutdownChecklist" />
+        <activity android:name="motivationalapps.t_44c.emergency_procedures.JammedPowerLever" />
+        <activity android:name="motivationalapps.t_44c.emergency_procedures.WindmillingAirstart" />
+        <activity android:name="motivationalapps.t_44c.emergency_procedures.SmokeFireUnknown" />
+        <activity android:name="motivationalapps.t_44c.emergency_procedures.SmokeFumeElimination" />
+        <activity android:name="motivationalapps.t_44c.emergency_procedures.FuelLeak" />
+        <activity android:name="motivationalapps.t_44c.emergency_procedures.GeneratorFailure" />
+        <activity android:name="motivationalapps.t_44c.emergency_procedures.PrimaryGovernorFailure" />
+        <activity android:name="motivationalapps.t_44c.emergency_procedures.ExplosiveDecompression" />
+        <activity android:name="motivationalapps.t_44c.emergency_procedures.EmergencyDescent" />
+        <activity android:name="motivationalapps.t_44c.emergency_procedures.SpinOutofControlFlight" />
+        <activity android:name="motivationalapps.t_44c.emergency_procedures.EGPWSImc" />
+        <activity android:name="motivationalapps.t_44c.emergency_procedures.SingleEngineWaveoff" />
+        <activity android:name="motivationalapps.t_44c.emergency_procedures.LowAltWindshear" />
+        <activity android:name="motivationalapps.t_44c.Fti_Checklists.FtiIntro" />
+        <activity android:name="motivationalapps.t_44c.Fti_Checklists.FtiBeforeStart" />
+        <activity android:name="motivationalapps.t_44c.Fti_Checklists.FtiStart" />
+        <activity android:name="motivationalapps.t_44c.Fti_Checklists.FtiAfterStart" />
+        <activity android:name="motivationalapps.t_44c.Fti_Checklists.FtiEngineRunup" />
+        <activity android:name="motivationalapps.t_44c.Fti_Checklists.FtiBeforeTakeoff" />
+        <activity android:name="motivationalapps.t_44c.Fti_Checklists.FtiClimb" />
+        <activity android:name="motivationalapps.t_44c.Fti_Checklists.FtiCruise" />
+        <activity android:name="motivationalapps.t_44c.Fti_Checklists.FtiDescent" />
+        <activity android:name="motivationalapps.t_44c.Fti_Checklists.FtiApproach" />
+        <activity android:name="motivationalapps.t_44c.Fti_Checklists.FtiLanding" />
+        <activity android:name="motivationalapps.t_44c.Fti_Checklists.FtiAfterLanding" />
+        <activity android:name="motivationalapps.t_44c.Fti_Checklists.FtiSecure" />
+        <activity android:name="motivationalapps.t_44c.Checklists.AfterStart" />
+        <activity android:name="motivationalapps.t_44c.Checklists.EngineRunup" />
+        <activity android:name="motivationalapps.t_44c.Checklists.BeforeTakeoff" />
+        <activity android:name="motivationalapps.t_44c.Checklists.Climb" />
+        <activity android:name="motivationalapps.t_44c.Checklists.Cruise" />
+        <activity android:name="motivationalapps.t_44c.Checklists.Descent" />
+        <activity android:name="motivationalapps.t_44c.Checklists.Approach" />
+        <activity android:name="motivationalapps.t_44c.Checklists.Landing" />
+        <activity android:name="motivationalapps.t_44c.Checklists.AfterLanding" />
+        <activity android:name="motivationalapps.t_44c.Checklists.Secure" />
+        <activity android:name="motivationalapps.t_44c.Maneuvers.ContactManeuvers" />
+        <activity android:name="motivationalapps.t_44c.Limits" />
+        <activity android:name="motivationalapps.t_44c.Feedback" />
+        <activity android:name="motivationalapps.t_44c.Checklists.Preflight" />
+        <activity android:name="motivationalapps.t_44c.Maneuvers.LevelSpeedChange" />
+        <activity android:name="motivationalapps.t_44c.Maneuvers.TurnPattern" />
+        <activity android:name="motivationalapps.t_44c.Maneuvers.SlowFlight" />
+        <activity android:name="motivationalapps.t_44c.Maneuvers.ApproachesToStalls" />
+        <activity android:name="motivationalapps.t_44c.Maneuvers.SseWaveoffAltitude" />
+        <activity android:name="motivationalapps.t_44c.Maneuvers.DynamicEngineCut" />
+        <activity android:name="motivationalapps.t_44c.Maneuvers.Ditching" />
+        <activity android:name="motivationalapps.t_44c.Maneuvers.BiUnusualAttitude" />
+        <activity android:name="motivationalapps.t_44c.Maneuvers.InstrumentManeuvers" />
+        <activity android:name="motivationalapps.t_44c.Maneuvers.BiOscarPattern" />
+        <activity android:name="motivationalapps.t_44c.Maneuvers.BiBravoPattern" />
+        <activity android:name="motivationalapps.t_44c.Maneuvers.BiCharliePattern" />
+        <activity android:name="motivationalapps.t_44c.Maneuvers.BiYankeePattern"></activity>
+    </application>
+
+</manifest>

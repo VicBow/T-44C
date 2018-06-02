@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="motivationalapps.t_44c.emergency_procedures.LowAltWindshear">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/Title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="Low-Altitude Windshear"
+                android:textColor="@android:color/black"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/info"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="fill_horizontal"
+                android:padding="5dp"
+                android:text="A windshear is defined as any rapid change in wind direction and/or speed that results in an airspeed change of 10 knots or more and/or a vertical speed change greater than 500 fpm. Windshear at low altitudes is a potential hazard to the T-44C during takeoff, landing, and all low-altitude windshear operations. The principal causes of low-altitude windshear are convective activity, frontal systems, lake and sea breezes, and large temperature inversions. Most windshear incidents recorded have been associated with convective thunderstorms that have produced microbursts. These microbursts are extremely concentrated downdrafts that when impacting the ground cause large headwind-tailwind differentials. A windshear is an extremely dynamic event that if severe and encountered at a low altitude makes aircraft recovery extremely difficult if not impossible. Windshears have been recorded that exceed the performance capability of the T-44C in all configurations. \nIf low-altitude windshear cannot be circumnavigated and is anticipated on approach, consideration should be given to maintaining airspeed 5 to 10 knots higher than normal approach speeds. If executing a nonprecision approach, descending rapidly to the minimum descent altitude should be avoided in favor of a 3\u00B0 glideslope. A stabilized approach should be established no lower than 1,000 feet AGL. If low altitude windshear is anticipated for takeoff, consideration should be given to delaying the takeoff until the winshear has ended. Other precautions for takeoff include using the longest runway available and increasing rotation speed. If a windshear is encountered in flight, the following procedures are recommended:"
+                android:textColor="@android:color/black"
+                android:textSize="15sp" />
+
+
+            <TextView
+                android:id="@+id/step1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:padding="5sp"
+                android:text="*1. Power - Max Allowable"
+                android:textColor="@color/memoryItems"
+                android:textSize="18sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/step2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:padding="5sp"
+                android:text="*2. Attitude - Set and Hold Approximately 15\u00B0 Noseup"
+                android:textColor="@color/memoryItems"
+                android:textSize="18sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/step3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:padding="5sp"
+                android:text="*3. Gear - UP"
+                android:textColor="@color/memoryItems"
+                android:textSize="18sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/step4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:padding="5sp"
+                android:text="*4. Flaps - Maintain Current Setting"
+                android:textColor="@color/memoryItems"
+                android:textSize="18sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/warning1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/warning_square"
+                android:text="Warning"
+                android:textColor="@android:color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/warning1info"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:padding="5dp"
+                android:text="\u2022 If stall warning is encountered during windshear recovery, aft yoke pressure should be relaxed only slightly to lessen angle of attack and allow the aircraft to exit stall."
+                android:textColor="@android:color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/warning1info2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:padding="5dp"
+                android:text="\u2022 It is imperative that the pilot fly a constant nose-high attitude with maximum allowable power set. The pilot should disregard airspeed. When any type of winddshear is encountered, it shall be reported to the controller immediately."
+                android:textColor="@android:color/black"
+                android:textSize="15sp" />
+        </LinearLayout>
+    </ScrollView>
+
+
+</android.support.constraint.ConstraintLayout>

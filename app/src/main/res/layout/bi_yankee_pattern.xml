@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="motivationalapps.t_44c.Maneuvers.BiYankeePattern">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/Title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="Yankee Pattern"
+                android:textColor="@android:color/black"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/info"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="fill_horizontal"
+                android:padding="5dp"
+                android:text="The Yankee pattern is a departure from traditional BI patterns in that it is flown under SSE conditions and at 120 KIAS.
+The maneuver is flown in order to build skills required to fly single engine approaches under instrument conditions.
+It teaches both scan and the effect of power changes upon rudder. All legs are one minute long and all turns are standard rate. All descents are 500 FPM.
+\n\na.   Straight and level, single engine procedures complete (1 min).
+\n\n     i.     900 ft-lbs torque (approx.).
+\n\n     ii.    120 KIAS.
+\n\nb.   Level left SRT for 180\u00B0 (1 min.).
+\n\n     i.     1000 ft-lbs torque (approx.)
+\n\n     ii.    120 KIAS.
+\n\nc.   Descend 500 feet at 500 FPM (1 min.).
+\n\n     i.     500 ft-lbs torque (approx.).
+\n\n     ii.    120 KIAS.
+\n\nd.   Continue 500 FPM descent while executing a left SRT for 45\u00B0 (15 sec.).
+\n\n     i.     600 ft-lbs torque (approx.).
+\n\n     ii.    120 KIAS.
+\n\ne.   Continue 500 FPM descent (45 sec.).
+\n\n     i.     500 ft-lbs torque (approx.).
+\n\n     ii.    120 KIAS.
+\n\nf.   Continue 500 FPM descent while executing a right SRT for 180\u00B0 (1 min.).
+\n\n     i.     600 ft-lbs torque (approx.)
+\n\n     ii.    120 KIAS.
+\n\ng.   Transition to straight and level (1 min.).
+\n\n     i.     900 ft-lbs torque (approx.).
+\n\n     ii.    120 KIAS.
+\n\nh.   Lower approach flaps and landing gear 10 seconds prior, complete Landing Checklist, and descend 500 feet at 500 FPM (1 min.).
+\n\n     i.     1000 ft-lbs torque (approx.).
+\n\n     ii.    120 KIAS.
+\n\ni.   Wave off straight ahead (SSE) at 110 KIAS; when safely climbing use right SRT to return to base heading. The maneuver is complete when climbing on base heading at or above 110 KIAS
+or at the discretion of the instructor.
+\n\nj.   Remember, AOB required for a SRT will be less in this pattern as the TAS is lower."
+                android:textColor="@android:color/black"
+                android:textSize="15sp" />
+
+            <ImageView
+                android:id="@+id/oscarPattern"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:padding="7dp"
+                android:src="@drawable/yankee"/>
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>
