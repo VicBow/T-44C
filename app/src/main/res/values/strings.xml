@@ -7,7 +7,13 @@
     <string name="title_activity_fti_checklists">FtiChecklists</string>
     <string name="feedback_info">Is there something in the app that has changed? Let me know! (And if you can supply the change, that would be super helpful.) \nIs there something that you would like to have added/subtracted? Let me know about that too. \nOr if you want to give me any sort of feedback, just fill it in to shoot me an email. Thanks!
     \n\nNOTE: The \u0022Send Feedback\u0022 button will take you to your email client with the information you provide. Feel free to attach a screenshot to the email, it would help tremendously.</string>
-    <string name="last_updated">Last Updated: 19 April 2018 \nv2.0.0.1</string>
+    <string name="last_updated">Last Updated: 02 June 2018 \nv2.0.0.2</string>
+
+    <string name="EP">Emergency Procedures</string>
+    <string name="opLimit">Operational Limits</string>
+    <string name="checklists">Checklists</string>
+    <string name="maneuvers">Maneuvers</string>
+    <string name="feedback">Feedback</string>
 
     <string-array name="mainMenu">
         <item>Emergency Procedures</item>
@@ -65,7 +71,7 @@
     </string-array>
 
     <string-array name="ittLimits">
-        <item>Normal operating range \u2014 400-790\u00B0C</item>
+        <item>Normal operating range \u2014 400\u2013790\u00B0C</item>
         <item>Max allowable \u2014 790\u00B0C</item>
         <item>Max continuous \u2014 790\u00B0C</item>
         <item>Max reverse \u2014 790\u00B0C</item>
@@ -77,34 +83,34 @@
     </string-array>
 
     <string-array name="torqueLimits">
-        <item>Normal operating range \u2014 400-1315 ft-lb</item>
+        <item>Normal operating range \u2014 400\u20131315 ft-lb</item>
         <item>Max @ 1900 RPM \u2014 1520 ft-lb</item>
         <item>Max @ 2200 RPM \u2014 1315 ft-lb</item>
         <item>Max acceleration \u2014 2100 ft-lb</item>
     </string-array>
 
     <string-array name="turbineLimits">
-        <item>Normal operating range \u2014 50-101.5%</item>
-        <item>Low idle range \u2014 51-54%</item>
-        <item>Hi idle range \u2014 70-73%</item>
+        <item>Normal operating range \u2014 50\u2013101.5%</item>
+        <item>Low idle range \u2014 51\u201354%</item>
+        <item>Hi idle range \u2014 70\u201373%</item>
         <item>Max reverse \u2014 86%</item>
         <item>Max acceleration \u2014 102.6%</item>
         <item>Max continuous \u2014 101.5%</item>
     </string-array>
 
     <string-array name="propLimits">
-        <item>Normal operating range \u2014 1800-2200 rpm</item>
+        <item>Normal operating range \u2014 1800\u20132200 rpm</item>
         <item>Max reverse \u2014 2100 rpm</item>
         <item>Max during accel (2 sec)</item>
     </string-array>
 
     <string-array name="oilTempLimits">
-        <item>Normal operating range \u2014 10-99\u00B0C</item>
+        <item>Normal operating range \u2014 10\u201399\u00B0C</item>
         <item>Max oil temp \u2014 99\u00B0C</item>
     </string-array>
 
     <string-array name="oilPxLimits">
-        <item>Normal operating range \u2014 85-100 psi</item>
+        <item>Normal operating range \u2014 85\u2013100 psi</item>
         <item>Max oil pressure \u2014 100 psi</item>
         <item>Min oil pressure \u2014 40 psi</item>
     </string-array>
@@ -116,13 +122,13 @@
     </string-array>
 
     <string-array name="generalLimits">
-        <item>Pneumatic pressure norm operating range \u2014 12-20 psi</item>
+        <item>Pneumatic pressure norm operating range \u2014 12\u201320 psi</item>
         <item>Max sink rate on landing \u2014 600 fpm</item>
         <item>Max crosswind \u2014 20 knots</item>
         <item>Max cabin pressure differential \u2014 4.7 psi</item>
-        <item>Gyro suction norm operating range \u2014 4.3-5.9 inHg</item>
+        <item>Gyro suction norm operating range \u2014 4.3\u20135.9 inHg</item>
         <item>Min oxygen required for local/X-C flight \u2014 1000/1500 psi</item>
-        <item>Prop deice ammeter normal operation \u2014 14-18 amps</item>
+        <item>Prop deice ammeter normal operation \u2014 14\u201318 amps</item>
         <item>Normal TAS altitude range \u2014 2700 feet</item>
     </string-array>
 
