@@ -180,7 +180,7 @@
                 android:layout_height="wrap_content"
                 android:gravity="left"
                 android:padding="5sp"
-                android:text="Approach Turn"
+                android:text="Stall Indications"
                 android:textColor="@android:color/black"
                 android:textSize="18sp"
                 android:textStyle="bold" />
@@ -214,10 +214,9 @@
                 android:id="@+id/stallNoteInfo"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:gravity="left"
+                android:gravity="center"
                 android:padding="5dp"
-                android:text="1.    Solos shall not practice stalls.
-\n\n2.    If no stall indications are received by the calculated stall speed, the maneuver shall be terminated and the aircraft returned to maintenance."
+                android:text="Solos shall not practice stalls."
                 android:textColor="@android:color/black"
                 android:textSize="15sp" />
 

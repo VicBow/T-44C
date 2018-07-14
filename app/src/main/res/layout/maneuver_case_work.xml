@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Maneuvers.CaseWork">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/Title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="Case Work"
+                android:textColor="@android:color/black"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/case1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="start"
+                android:padding="5sp"
+                android:text="Case 1. Takeoff to Crosswind"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/case1Info"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="fill_horizontal"
+                android:padding="5dp"
+                android:text="For an engine related malfunction before the turn to crosswind proceed as follows:
+\n\na. Determine if the malfunction has caused a power loss:
+\n\n    i.  If the malfunction has caused a power loss after takeoff, execute the ENGINE FAILURE AFTER TAKEOFF procedure through the first three steps of the Emergency Shutdown
+Checklist. After ensuring that the propeller has feathered and with proper downwind interval, initiate the crosswind turn at 300' AGL or above and continue the checklist.
+\n\n    ii. If the malfunction has not caused a power loss: clean up and given proper downwind interval, initiate the crosswind at 300' AGL or above. If the malfunction will require
+an emergency shutdown or a prop to be feathered, clean up the aircraft and continue the turn to downwind and climb to pattern altitude.
+\n\nb. Perform or continue the applicable procedure/memory items. Determine if there is a confirmed/suspected fire or fuel leak while simultaneously pulling props back to 1900 RPM.
+Declare an emergency, and continue the checklist as time permits.
+\n\nc. Climb to pattern altitude, and then accelerate to 120 KIAS. Maximum allowable power may be required initially, but should be reduced once 120 KIAS is established."
+                android:textColor="@android:color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/note1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="NATOPS WARNING"
+                android:textColor="@android:color/black"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/note1info"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="If the autofeather system is activated, retarding either power lever before the feathering sequence is complete will deactivate autofeather circuit and prevent automatic feathering."
+                android:textColor="@android:color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/note2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="NOTE"
+                android:textColor="@android:color/black"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/note2info"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="Identify the failed engine utilizing engine instruments (torque, ITT, N1, fuel flow) and required rudder. Your foot working hard to maintain heading is on the
+same side as the operating engine. Once you have reached 102 KIAS, raise the nose to stop any altitude loss, and accelerate to 110 KIAS. Banking 5\u00B0 into the operating engine,
+while maintaining the ball nearly centered (1/4 to 1/2 out towards the operating engine), is critical to optimizing single engine climb performance at low airspeed and high AOA."
+                android:textColor="@android:color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/case2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="start"
+                android:padding="5sp"
+                android:text="Case 2. Crosswind Turn"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/case2Info"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="fill_horizontal"
+                android:padding="5dp"
+                android:text="Loss of an engine in a high AOB turn requires immediate action, especially when turning into the failed engine. Proceed as follows:
+\n\na. Determine if the malfunction has caused a power loss:
+\n\n    i.  If the malfunction has caused a power loss after takeoff, roll wings level to allow proper analysis and better control of the aircraft. Add power on the operating
+engine (as required), nearly center the ball (1/4 to 1/2 out towards the operating engine) and clean up the aircraft. Maintain a minimum of 102 KIAS (Vxse) or 110 KIAS (Vyse).
+After establishing coordinated flight, continue the crosswind turn. Continuation of the crosswind turn is desired to prevent extending the pattern.
+\n\n    ii. If the malfunction has not caused a power loss: continue with the turn to downwind, handle the malfunction, and climb to pattern altitude. If the malfunction will
+require an emergency shutdown or a prop to be feathered, consideration should be given to cleaning up the aircraft, delaying execution of the Emergency Shutdown Checklist
+or Primary Governor Failure/Malfunction until wings level on downwind, at pattern altitude and 120 KIAS.
+\n\nb. Perform the applicable procedure/memory items. Declare an emergency, and continue the checklist as time permits.
+\n\nc. Climb to pattern altitude, and then accelerate to 120 KIAS. Maximum allowable power may be required initially, but should be reduced once 120 KIAS is established."
+                android:textColor="@android:color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/case3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="start"
+                android:padding="5sp"
+                android:text="Case 3. Downwind"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/case3Info"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="fill_horizontal"
+                android:padding="5dp"
+                android:text="a. Add power on the remaining engine (as required), nearly center the ball (1/4 to 1/2 out towards the operating engine) and clean up if required
+to maintain 120 KIAS and pattern altitude."
+                android:textColor="@android:color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/note3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="NOTE"
+                android:textColor="@android:color/black"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/note3info"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="Use good judgement to make your decision whether or not to cleanup. High gross weight, high density altitude, and/or other traffic in the pattern may require
+that you clean up in order to maintain pattern altitude. If the decision is made to clean up, raise both the gear and flaps; however, if the emergency (Case 3) occurs nearing the 180
+position, it may not be necessary or advisable to cleanup. (Midfield and beyond is a good rule of thumb)."
+                android:textColor="@android:color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/case3bInfo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="fill_horizontal"
+                android:padding="5dp"
+                android:text="b. Perform the applicable procedure/memory items. Declare an emergency, and continue the checklist as time permits.
+\n\nc. Just prior to the 180, if attitude and airspeed permit, select approach flaps, gear down, and complete the Landing Checklist (if not previously completed). The
+PM is responsible for making radio calls."
+                android:textColor="@android:color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/note3a"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="NOTES"
+                android:textColor="@android:color/black"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/note3ainfo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="1. If altitude and/or airspeed do not permit lowering the flaps and landing gear, inform the PM and Tower you are holding the gear until reaching the pattern profile.
+\n\n2. If the Landing Checklist is interrupted, it shall be reinitiated from the beginning."
+                android:textColor="@android:color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/case3cInfo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="fill_horizontal"
+                android:padding="5dp"
+                android:text="d. Maintain a minimum of 110 KIAS to the 90. The Landing Checklist shall be complete no later than the 90."
+                android:textColor="@android:color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/case4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="start"
+                android:padding="5sp"
+                android:text="Case 4. Approach Turn"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/case4Info"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="fill_horizontal"
+                android:padding="5dp"
+                android:text="The approach turn is defined as any point after commencing a turn off the 180 until the 90. Power loss in a descent is normally easy to control with only a slight power addition.
+\n\na. Add power on the operating engine (as required) while maintaining 110 KIAS minimum, nearly center the ball (1/4 to 1/2 out towards the operating engine) and continue the approach turn. Do not raise the gear unless executing a waveoff.
+\n\nb. Perform the applicable procedure/memory items, declare an emergency, and continue the checklist as time permits."
+                android:textColor="@android:color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/note4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="NOTES"
+                android:textColor="@android:color/black"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/note4info"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="1. When a fire/fuel leak is discovered past the 180 position, only the first three memory items of the Emergency Shutdown Checklist are required.
+You may complete the checklist if able, but not at the expense of maintaining solid BAW. Generally, once established on final, focus should be on the landing.
+\n\n2. After a waveoff is executed the pilot should call for the remainder of the applicable procedure/checklist as appropriate.
+\n\n3. Once the memory items have been completed, the remainder of the checklist will be completed on deck."
+                android:textColor="@android:color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/case5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="start"
+                android:padding="5sp"
+                android:text="Case 5. After the 90"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/case5Info"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="fill_horizontal"
+                android:padding="5dp"
+                android:text="The steep glideslope maintained in the VFR traffic pattern usually requires little power on final.
+Therefore, power loss should pose no particular problem. Only slight additional power is normally required.
+The need for power is usually most noticeable nearing the runway. Maintain directional control and crosswind corrections, ensuring sufficient
+power to sustain 110 KIAS to the threshold. Accomplish the first three memory items (optional); however, do not sacrifice aircraft control to complete the memory items.
+In the event the memory items cannot be accomplished, indicate that you will land the aircraft and then deal with the emergency on the deck.
+Concentrate on flying the aircraft to a smooth touchdown on centerline. The aircraft has a tendency to float with one engine feathered.
+After safely touched down utilize the SSE full stop procedures described below."
+                android:textColor="@android:color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/note5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="NOTES"
+                android:textColor="@android:color/black"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/note5info"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="1. Use of full flaps is left to the discretion of the PIC, but it is not recommended due to the reduced waveoff capability. Students shall not practice full flap SSE landings.
+\n\n2. For actual engine failures, except for a Case 5 failure, the failed engine would have been feathered during the Emergency Shutdown Checklist. If a prop has been feathered, only
+the operative prop would be placed full forward. In a Case 5 failure, land with both props full forward unless the failed engine has been feathered. It is unlikely the prop would
+autofeather since the pwer levers would probably not be above the 90% position. If a waveoff is required under actual single-engine conditions, placing both power levers to maximum allowable should result in an autofeather.
+\n\n3. Once the memory items have been completed, the remainder of the checklist will be completed on deck."
+                android:textColor="@android:color/black"
+                android:textSize="15sp" />
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

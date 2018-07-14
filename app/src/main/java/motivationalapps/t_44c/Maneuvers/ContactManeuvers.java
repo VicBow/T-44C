@@ -65,6 +65,16 @@ public class ContactManeuvers extends AppCompatActivity implements AdapterView.O
             startActivity(intent);
         }
 
+        else if (l == 7) {
+            intent = new Intent(getBaseContext(), CaseWork.class);
+            startActivity(intent);
+        }
+
+        else if (l == 8) {
+            intent = new Intent(getBaseContext(), SSEPattern.class);
+            startActivity(intent);
+        }
+
         else {
             Toast.makeText(getBaseContext(), "Coming Soon!", Toast.LENGTH_SHORT).show();
         }

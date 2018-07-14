@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Maneuvers.SSEPattern">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/Title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="SSE Landing Pattern"
+                android:textColor="@android:color/black"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/sseLandingPattern"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/ssepattern"/>
+
+            <TextView
+                android:id="@+id/info"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="fill_horizontal"
+                android:padding="5dp"
+                android:text="a. SSE Full-stop landing. The SSE full-stop landing presents no particular control difficulties as long as the
+following procedures are adhered to exactly. After landing, reduce power to idle. Lift both power levers over the detent and slowly ease the operating engine
+into reverse. Scan toward the end of the runway for alignment. Counteract yaw with rudder and use brakes and power to maintain centerline. Push the yoke full forward and
+the aileron into the dead engine. If yaw becomes excessive, reduce or discontinue reversing and stop with brakes. Be careful to not lock the brakes.
+The maneuver is complete when the aircraft has come to a slow taxi on the runway. Following an actual single-engine landing, clear the runway if practicable, then perform shutdown.
+Do not attempt to taxi on one engine. Make single-engine landings on the most favorable runway.
+Placing the dead engine into the wind may facilitate aircraft control during the landing rollout.
+Placing the good engine into the wind may help aircraft control and reduce rudder requirements while airborne.
+\n\nSSE full-stop landings shall only be performed if the SSE full-stop landing Brief has been completed and can be found in the FTI Typical Briefs and Voice Procedures Appendix.
+SSE full-stop training shall only be performed on a dry runway. Effects of crosswind on rollout shall be discussed.
+This maneuver is accomplished to demonstrate the coordination required to keep the aircraft on centerline when reversing only one engine.
+An actual single-engine full stop with reverse would only be used if landing distance were critical.
+Provided the landing is not excessively long, the runway length minimums utilized on all training flights provide sufficient runway to execute a single-engine full
+stop without the use of reverse."
+                android:textColor="@android:color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/case2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="start"
+                android:padding="5sp"
+                android:text="SSE Waveoff"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/info2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="fill_horizontal"
+                android:padding="5dp"
+                android:text="b. SSE waveoffs allow safe transition from SSE descending flight to maximum power SSE climbing flight.
+The maneuver is designed to stop altitude loss as soon as possible, while transitioning to a climb at the desired climb speed.
+\n\nMinimum altitude for the IP to initiate a practice SSE waveoff is 200'. The IP shall take the controls, utilize both engines, and execute any waveoff required below 200'.
+\n\nThe SSE waveoff is a demanding maneuver requiring precise aircraft control and expedient procedures. Climb performance is directly proportional to how well the maneuver is executed.
+Limited power margins dictate exact execution. Utilize T-44C NATOPS Single Engine Waveoff procedures.
+\n\nIf possible, wave off slightly offset to the pattern side of the runway to allow a better view of the traffic.
+\n\nTo standardize all waveoffs, the copilot shall report \u0022gear up\u0022 before the props are retarded to 1900.
+The intent of this requirement is to ensure that instructors can maintain proper defensive positioning throughout the waveoff.
+Students must ensure that they understand the aerodynamic concepts behind getting the gear up, props back, and proper power set for the best performance.
+\n\nDuring a single engine waveoff, airspeeds between 102-110 KIAS are acceptable; however, the pilot should strive to climb out at best angle or best rate of climb as needed.
+Students should be targeting one of these two airspeeds not simply attempting to be between 102-110."
+                android:textColor="@android:color/black"
+                android:textSize="15sp" />
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>
